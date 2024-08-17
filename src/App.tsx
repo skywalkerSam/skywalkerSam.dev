@@ -18,7 +18,8 @@ import ErrorBoundary from "./components/ErrorBoundary.tsx";
 import starboyLogo from "/logo.png";
 
 const App = () => {
-  console.log(String.raw`
+  console.log(
+    String.raw`%c
              __                             .__    __                                                    .___               
   ______|  | __ ___.__.__  _  _______   |  |  |  | __  ____  _______   ___________     _____       __| _/  ____  ___  __
  /  ___/|  |/ /<   |  |\ \/ \/ /\__  \  |  |  |  |/ /_/ __ \ \_  __ \ /  ___/\__  \   /     \     / __ | _/ __ \ \  \/ /
@@ -26,7 +27,9 @@ const App = () => {
 /____  >|__|_ \ / ____|  \/\_/  (____  /|____/|__|_ \ \___  > |__|   /____  >(____  /|__|_|  / /\\____ |  \___  >  \_/  
      \/      \/ \/                   \/            \/     \/              \/      \/       \/  \/     \/      \/        
 
-    `);
+    `,
+    "color: cyan;"
+  );
   return (
     <>
       <ErrorBoundary>
