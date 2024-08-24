@@ -23,7 +23,7 @@ class ErrorBoundary extends Component<ErrorBoundaryProps, ErrorBoundaryState> {
   render() {
     if (this.state.hasError) {
       // You can customize the error message or loading indicator here
-      return <h1 className="f5 red">Something went wrong!</h1>;
+      return <h1 className="font-sans text-center text-3xl text-red-600 bg-black">Something went wrong!</h1>;
     }
 
     return this.props.children;
