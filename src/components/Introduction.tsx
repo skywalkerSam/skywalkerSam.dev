@@ -16,9 +16,7 @@ export default function Introduction() {
           </a>
           <div className="pt-6 md:p-8 text-center md:text-left space-y-4">
             <blockquote>
-              <p className="text-xl">
-                👋 Just trying to make it to Friday, have a nice day...
-              </p>
+              <p className="text-xl">In search of a better world...</p>
             </blockquote>
             <figcaption className="font-medium">
               <div className="text-sky-500 dark:text-sky-400">
