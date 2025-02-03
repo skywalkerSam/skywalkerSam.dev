@@ -4,7 +4,7 @@ import appLogo from "/favicon.svg";
 export default function Footer() {
   return (
     <>
-      <footer className="mt-12">
+      <footer className="mt-60">
         <div>
           <a href="https://vitejs.dev" target="_blank">
             <img src={appLogo} className="logo inline-block" alt="Vite logo" />
