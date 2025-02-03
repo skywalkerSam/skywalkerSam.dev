@@ -16,9 +16,7 @@ export default function Introduction() {
           </a>
           <div className="pt-6 md:p-8 text-center md:text-left space-y-4">
             <blockquote>
-              <p className="text-xl">
-                In search of a better world...
-              </p>
+              <p className="text-xl">In search of a better world...</p>
             </blockquote>
             <figcaption className="font-medium">
               <div className="hover:text-cyan-300 hover:underline">
