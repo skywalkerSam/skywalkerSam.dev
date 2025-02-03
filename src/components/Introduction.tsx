@@ -17,23 +17,24 @@ export default function Introduction() {
           <div className="pt-6 md:p-8 text-center md:text-left space-y-4">
             <blockquote>
               <p className="text-xl">
-                👋 Just trying to make it to Friday, have a nice day...
+                In search of a better world...
               </p>
             </blockquote>
             <figcaption className="font-medium">
-              <div className="text-sky-500 dark:text-sky-400">
+              <div className="hover:text-cyan-300 hover:underline">
                 <a href="https://x.com/skywalkerSam_" target="_blank">
                   Sam Skywalker
                 </a>
               </div>
               <div className="text-slate-700 dark:text-slate-500">
-                <em>Explorer</em>,{" "}
+                Explorer,{" "}
                 <strong>
                   <a
                     href="https://earth.google.com/web/@-6.64351487,-155.38809481,-39838.85812249a,63209837.28240967d,35y,0h,0t,0r/data=OgMKATA"
                     target="_blank"
+                    className="hover:underline hover:text-cyan-300"
                   >
-                    Planet-Earth
+                    Planet Earth
                   </a>
                 </strong>
               </div>
