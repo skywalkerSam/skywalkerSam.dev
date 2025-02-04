@@ -1,3 +1,6 @@
+.firebase/
+.firebase/*
+
 .idea
 .idea/*
 .vscode/

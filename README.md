@@ -1,3 +1,7 @@
 # [skywalkerSam.dev](https://skywalkersam.dev)
 
-## [skywalkerSam-dev.web.app](https://skywalkerSam-dev.web.app)
+w/ Firebase
+
+## Other domains
+
+[skywalkerSam-dev.web.app](https://skywalkerSam-dev.web.app)
