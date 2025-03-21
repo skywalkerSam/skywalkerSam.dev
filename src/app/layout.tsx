@@ -1,12 +1,20 @@
-import "~/styles/globals.css"
+import "~/styles/globals.css";
 import type { Metadata } from "next";
+// import { layoutStyles } from "~/styles/styles";
 import { ThemeProvider } from "~/components/theme-provider";
 import { ClerkProvider, SignedIn, SignedOut } from "@clerk/nextjs";
 import StarboyLogo from "~/components/ui/starboy-logo";
 import UserSignInButton from "~/components/ui/sign-in";
-import { centeredDivStyle } from "~/styles/styles";
 import Footer from "~/components/ui/footer";
 import MainTitle from "~/components/ui/main-title";
+import { Ubuntu } from "next/font/google";
+
+const ubuntu = Ubuntu({
+  weight: ['400', '700'],
+  style: ['normal', 'italic'],
+  subsets: ['latin'],
+  display: 'swap',
+});
 
 // https://nextjs.org/learn/dashboard-app/adding-metadata
 export const metadata: Metadata = {
@@ -15,7 +23,7 @@ export const metadata: Metadata = {
     default: "Starboy Inc.",
   },
   description:
-    "Starboy Inc. dashboard demo built with NEXT.js + Vercel by @skywalkerSam",
+    "Starboy Inc.",
   metadataBase: new URL("https://skywalkersam.dev/"),
   icons: [{ rel: "icon", url: "/favicon.ico" }],
 };
@@ -28,7 +36,7 @@ export default function RootLayout({
   return (
     <ClerkProvider>
       <html lang="en" suppressHydrationWarning>
-        <body className="antialiased">
+        <body className={`${ubuntu.className} antialiased`}>
           <ThemeProvider
             attribute="class"
             defaultTheme="system"
@@ -39,10 +47,10 @@ export default function RootLayout({
               <div className="flex flex-row-reverse p-3">
                 <UserSignInButton></UserSignInButton>
               </div>
-              <div className={centeredDivStyle}>
+              <div className="flex min-h-screen flex-row items-center justify-center">
                 <StarboyLogo></StarboyLogo>
               </div>
-              <div className={centeredDivStyle}>
+              <div className="flex min-h-screen flex-row items-center justify-center">
                 <MainTitle></MainTitle>
               </div>
             </SignedOut>

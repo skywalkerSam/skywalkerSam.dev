@@ -1,10 +1,8 @@
 "use client";
 
-import Link from "next/link";
 import { UserButton } from "@clerk/nextjs";
 import "~/styles/starboy-logo.css";
 import type { JSX } from "react";
-import { Button } from "./button";
 
 export default function TopBar(): JSX.Element {
   return (
@@ -13,11 +11,7 @@ export default function TopBar(): JSX.Element {
         <div>
           <UserButton></UserButton>
         </div>
-        <div>
-          <Link href={"/dashboard"}>
-            <Button variant="ghost">Dashboard</Button>
-          </Link>
-        </div>
+        <div className="flex min-h-screen flex-row items-center justify-center"></div>
       </div>
     </div>
   );
