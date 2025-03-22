@@ -24,9 +24,9 @@ export default function TopBar(): JSX.Element {
       <div className="size-14 flex-none"></div>
       <div className="size-14 grow">
         <NavigationMenu>
-          <NavigationMenuList>
-            {/* Projects */}
+          {/* Projects */}
 
+          <NavigationMenuList>
             <div className="p-1">
               <NavigationMenuItem>
                 <NavigationMenuTrigger>Projects</NavigationMenuTrigger>
@@ -57,9 +57,11 @@ export default function TopBar(): JSX.Element {
                 </NavigationMenuContent>
               </NavigationMenuItem>
             </div>
+          </NavigationMenuList>
 
-            {/* Ex-Projects */}
-
+          {/* Ex-Projects */}
+          
+          <NavigationMenuList>
             <div className="p-1">
               <NavigationMenuItem>
                 <NavigationMenuTrigger>Ex-Projects</NavigationMenuTrigger>

@@ -3,7 +3,8 @@ import type { Metadata } from "next";
 import { ThemeProvider } from "~/components/theme-provider";
 import Footer from "~/components/ui/footer";
 import { Ubuntu } from "next/font/google";
-import TopBar from "~/components/ui/top-bar";
+// import TopBar from "~/components/ui/top-bar";
+import { NavigationMenuBar } from "~/components/ui/navigation-menu-bar";
 
 const ubuntu = Ubuntu({
   weight: ["400", "700"],
@@ -37,7 +38,8 @@ export default function RootLayout({
           enableSystem
           disableTransitionOnChange
         >
-          <TopBar></TopBar>
+          {/* <TopBar></TopBar> */}
+          <NavigationMenuBar></NavigationMenuBar>
           <main>{children}</main>
 
           <Footer></Footer>
