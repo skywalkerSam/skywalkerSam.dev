@@ -16,9 +16,18 @@ const config = {
       },
     ],
   },
+
   // For reducing build times.)
-  typescript: { ignoreBuildErrors: true },
-  eslint: { ignoreDuringBuilds: true },
+  // typescript: { ignoreBuildErrors: true },
+  // eslint: { ignoreDuringBuilds: true },
+
+  // Only disable for development to speed up iteration
+  typescript: {
+    ignoreBuildErrors: process.env.NODE_ENV !== "production",
+  },
+  eslint: {
+    ignoreDuringBuilds: process.env.NODE_ENV !== "production",
+  },
 };
 
 export default config;

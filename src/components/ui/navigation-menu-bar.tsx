@@ -168,7 +168,7 @@ export function NavigationMenuBar() {
                         className="flex h-full w-full select-none flex-col justify-end rounded-md bg-gradient-to-b from-muted/50 to-muted p-6 no-underline outline-none focus:shadow-md"
                         href="https://github.com/skywalkerSam"
                       >
-                        <img src="/icon.svg" height={60} width={60}></img>
+                        <img src="/icon.svg" height={60} width={60} alt="Starboy Logo"></img>
                         <div className="mb-2 mt-4 text-lg font-medium">
                           <p className="text-sm leading-tight text-muted-foreground">
                             Handcrafted by
