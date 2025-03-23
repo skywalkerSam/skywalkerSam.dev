@@ -254,7 +254,21 @@ export function NavigationMenuBar() {
           </NavigationMenuList>
         </NavigationMenu>
       </div>
-      <div className="size-14 flex-none"></div>
+      <div className="size-14 flex-none">
+        <a
+          href="https://github.com/skywalkerSam/skywalkerSam.dev"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img
+            src="/github-mark-white.svg"
+            alt="GitHub Logo"
+            width={30}
+            height={30}
+            className="mt-1 p-1"
+          />
+        </a>
+      </div>
     </div>
   );
 }
