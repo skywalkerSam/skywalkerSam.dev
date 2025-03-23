@@ -155,7 +155,7 @@ export function NavigationMenuBar() {
   return (
     <div className="flex">
       <div className="flex size-9 md:flex-none lg:flex-grow"></div>
-      <div className="size-9 flex-grow">
+      <div className="size-9 flex-grow tracking-tighter md:tracking-normal lg:tracking-normal">
         <NavigationMenu>
           <NavigationMenuList>
             <NavigationMenuItem>
