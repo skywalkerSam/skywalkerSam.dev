@@ -247,3 +247,10 @@
     @apply bg-background text-foreground;
   }
 }
+
+/* Mobile Optimization */
+@media screen and (max-width: 720px) {
+  body {
+    align-items: center;
+  }
+}
