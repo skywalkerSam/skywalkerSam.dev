@@ -16,39 +16,72 @@ import {
 
 const components: { title: string; href: string; description: string }[] = [
   {
-    title: "Alert Dialog",
-    href: "/docs/primitives/alert-dialog",
+    title: "Hello React!",
+    href: "https://github.com/skywalkerSam/hello-react",
     description:
-      "A modal dialog that interrupts the user with important content and expects a response.",
+      "The Hello World of React.",
   },
   {
-    title: "Hover Card",
-    href: "/docs/primitives/hover-card",
+    title: "House Of Cards",
+    href: "https://github.com/skywalkerSam/houseOfCards",
     description:
-      "For sighted users to preview content available behind a link.",
+      "A simple game where you'd waste your time matching two cards at a time.)",
   },
   {
-    title: "Progress",
-    href: "/docs/primitives/progress",
-    description:
-      "Displays an indicator showing the completion progress of a task, typically displayed as a progress bar.",
+    title: "Dashboard Demo",
+    href: "https://github.com/skywalkerSam/dashboard-demo",
+    description: "Dashboard Demo w/ NEXT.js + Vercel.",
   },
   {
-    title: "Scroll-area",
-    href: "/docs/primitives/scroll-area",
-    description: "Visually or semantically separates content.",
+    title: "Tic Tac Toe",
+    href: "https://github.com/skywalkerSam/tictactoe",
+    description: "Simple Tic Tac Toe.)",
   },
   {
-    title: "Tabs",
-    href: "/docs/primitives/tabs",
-    description:
-      "A set of layered sections of content—known as tab panels—that are displayed one at a time.",
+    title: "Face Detection",
+    href: "https://github.com/skywalkerSam/faceDetection",
+    description: "Basic Face Detection w/ Clarifai.",
   },
   {
-    title: "Tooltip",
-    href: "/docs/primitives/tooltip",
+    title: "Face Detection Demo",
+    href: "https://github.com/skywalkerSam/face-detection-vite",
+    description: "Face Detection Demo built w/ Vite + React.",
+  },
+  {
+    title: "Dall-E Wrapper",
+    href: "https://github.com/skywalkerSam/dalleWrapper",
     description:
-      "A popup that displays information related to an element when the element receives keyboard focus or the mouse hovers over it.",
+      "Mimicking Dall-E-like Responses w/ Randomized Preset Images.)",
+  },
+  {
+    title: "Animal Farm",
+    href: "https://github.com/skywalkerSam/animalSearch",
+    description: "POC for Searching Things.",
+  },
+  {
+    title: "Timer",
+    href: "https://github.com/skywalkerSam/timer",
+    description: "A Simple Timer made w/ React.",
+  },
+  {
+    title: "Clock",
+    href: "https://github.com/skywalkerSam/clock",
+    description: "A Simple Clock made w/ React.",
+  },
+  {
+    title: "Workspace",
+    href: "https://github.com/skywalkerSam/workspace",
+    description: "A Simple Workspace made w/ React.",
+  },
+  {
+    title: "To Do",
+    href: "https://github.com/skywalkerSam/todo",
+    description: "A Simple To Do made w/ React.",
+  },
+  {
+    title: "Robofriends",
+    href: "https://github.com/skywalkerSam/robofriends",
+    description: "A Collection of Robot Cards made w/ React.",
   },
 ];
 
@@ -79,23 +112,35 @@ export function NavigationMenuBar() {
                       </a>
                     </NavigationMenuLink>
                   </li>
-                  <ListItem href="/docs" title="Introduction">
-                    Re-usable components built using Radix UI and Tailwind CSS.
-                  </ListItem>
-                  <ListItem href="/docs/installation" title="Installation">
-                    How to install dependencies and structure your app.
+                  <ListItem
+                    href="https://github.com/skywalkerSam/stardate"
+                    title="Project Stardate"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    A better standard for dating things (at least for me.)
                   </ListItem>
                   <ListItem
-                    href="/docs/primitives/typography"
-                    title="Typography"
+                    href="https://github.com/skywalkerSam/next-gallery"
+                    title="Next Gallery"
+                    target="_blank"
+                    rel="noopener noreferrer"
                   >
-                    Styles for headings, paragraphs, lists...etc
+                    Image Gallery Showcase w/ NEXT.js + Vercel.
                   </ListItem>
+                  {/* <ListItem
+                    href="https://github.com/skywalkerSam/life-in-dots"
+                    title="Typography"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Life In Dots
+                  </ListItem> */}
                 </ul>
               </NavigationMenuContent>
             </NavigationMenuItem>
             <NavigationMenuItem>
-              <NavigationMenuTrigger>Components</NavigationMenuTrigger>
+              <NavigationMenuTrigger>Ex-Projects</NavigationMenuTrigger>
               <NavigationMenuContent>
                 <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px]">
                   {components.map((component) => (
@@ -103,6 +148,8 @@ export function NavigationMenuBar() {
                       key={component.title}
                       title={component.title}
                       href={component.href}
+                      target="_blank"
+                      rel="noopener noreferrer"
                     >
                       {component.description}
                     </ListItem>
