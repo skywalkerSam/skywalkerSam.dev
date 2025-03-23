@@ -14,12 +14,11 @@ import {
   navigationMenuTriggerStyle,
 } from "~/components/ui/navigation-menu";
 
-const components: { title: string; href: string; description: string }[] = [
+const exProjects: { title: string; href: string; description: string }[] = [
   {
     title: "Hello React!",
     href: "https://github.com/skywalkerSam/hello-react",
-    description:
-      "The Hello World of React.",
+    description: "The Hello World of React.",
   },
   {
     title: "House Of Cards",
@@ -85,6 +84,73 @@ const components: { title: string; href: string; description: string }[] = [
   },
 ];
 
+const archivedProjects: {
+  title: string;
+  href: string;
+  description: string;
+}[] = [
+  {
+    title: "The Hello World Project",
+    href: "https://github.com/skywalkerSam/the-hello-world-project",
+    description:
+      "Hello World for Every Programming Language possible! Hopefully.)",
+  },
+  {
+    title: "...introductionToWebDevelopment",
+    href: "https://github.com/skywalkerSam/introductionToWebDevelopment",
+    description: "Introduction to Web Development, fr*",
+  },
+  {
+    title: "Project Cortana",
+    href: "https://github.com/skywalkerSam/Project-Cortana",
+    description: "Project Cortana. Inspired by Halo Infinite.)",
+  },
+  {
+    title: "JS 101",
+    href: "https://github.com/skywalkerSam/JS-101",
+    description: 'JavaScript 101 (Not, Java. "JavaScript".)',
+  },
+  {
+    title: "Python 101",
+    href: "https://github.com/skywalkerSam/Python-101",
+    description: "Introduction to Python 3",
+  },
+  {
+    title: "ML 101",
+    href: "https://github.com/skywalkerSam/ML-101",
+    description: "Machine Learning 101",
+  },
+  {
+    title: "Game Development",
+    href: "https://github.com/skywalkerSam/Game-Dev-101",
+    description: "Game Development 101",
+  },
+  {
+    title: "Guessing Game",
+    href: "https://github.com/skywalkerSam/Guessing-Game",
+    description: "A Terminal-based Guessing Game written in C++",
+  },
+  {
+    title: "Audio Generator",
+    href: "https://github.com/skywalkerSam/Audio-Generator",
+    description: "Text-to-Audio w/ Python 3",
+  },
+  {
+    title: "IT 101",
+    href: "https://github.com/skywalkerSam/IT-101",
+    description: "Getting Started with Information Technologies",
+  },
+  // {
+  //   title: "Linux 101",
+  //   href: "https://github.com/skywalkerSam/Linux-101",
+  //   description: "Linux 101",
+  // },
+  {
+    title: "Sidewalks",
+    href: "https://github.com/skywalkerSam/Sidewalks",
+    description: "Sidewalks...",
+  },
+];
 export function NavigationMenuBar() {
   return (
     <div className="flex">
@@ -139,11 +205,12 @@ export function NavigationMenuBar() {
                 </ul>
               </NavigationMenuContent>
             </NavigationMenuItem>
+
             <NavigationMenuItem>
               <NavigationMenuTrigger>Ex-Projects</NavigationMenuTrigger>
               <NavigationMenuContent>
                 <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px]">
-                  {components.map((component) => (
+                  {exProjects.map((component) => (
                     <ListItem
                       key={component.title}
                       title={component.title}
@@ -157,6 +224,26 @@ export function NavigationMenuBar() {
                 </ul>
               </NavigationMenuContent>
             </NavigationMenuItem>
+
+            <NavigationMenuItem>
+              <NavigationMenuTrigger>Project Archives</NavigationMenuTrigger>
+              <NavigationMenuContent>
+                <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px]">
+                  {archivedProjects.map((component) => (
+                    <ListItem
+                      key={component.title}
+                      title={component.title}
+                      href={component.href}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      {component.description}
+                    </ListItem>
+                  ))}
+                </ul>
+              </NavigationMenuContent>
+            </NavigationMenuItem>
+
             <NavigationMenuItem>
               <Link href="/about" legacyBehavior passHref>
                 <NavigationMenuLink className={navigationMenuTriggerStyle()}>
