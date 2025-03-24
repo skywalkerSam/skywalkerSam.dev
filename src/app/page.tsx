@@ -5,7 +5,7 @@ export default function Page() {
   return (
     <div>
       <div className="flex min-h-screen flex-row items-center justify-center">
-        <div className="w-48 md:w-60 lg:w-72">
+        <div className="w-48 md:w-60">
           <StarboyLogo></StarboyLogo>
         </div>
       </div>

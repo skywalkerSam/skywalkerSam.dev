@@ -12,7 +12,9 @@ export default function Footer() {
       <footer>
         <div>
           <p>Built w/</p>
-          <NextLogo></NextLogo>
+          <div className="w-36">
+            <NextLogo></NextLogo>
+          </div>
           <p>
             &copy; 12025,{" "}
             <a

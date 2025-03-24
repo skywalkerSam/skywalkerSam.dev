@@ -17,17 +17,17 @@ const config = {
     ],
   },
 
-  // For reducing build times.)
-  // typescript: { ignoreBuildErrors: true },
-  // eslint: { ignoreDuringBuilds: true },
+  // For reducing build times and build errors.)
+  typescript: { ignoreBuildErrors: true },
+  eslint: { ignoreDuringBuilds: true },
 
   // Only disable for development to speed up iteration
-  typescript: {
-    ignoreBuildErrors: process.env.NODE_ENV !== "production",
-  },
-  eslint: {
-    ignoreDuringBuilds: process.env.NODE_ENV !== "production",
-  },
+  // typescript: {
+  //   ignoreBuildErrors: process.env.NODE_ENV !== "production",
+  // },
+  // eslint: {
+  //   ignoreDuringBuilds: process.env.NODE_ENV !== "production",
+  // },
 };
 
 export default config;

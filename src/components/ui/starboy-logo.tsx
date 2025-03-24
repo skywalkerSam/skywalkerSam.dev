@@ -5,7 +5,7 @@ import "~/styles/starboy-logo.css";
 
 export default function StarboyLogo() {
   return (
-    <div className="flex flex-row items-center justify-center p-3">
+    <div className="flex flex-row items-center justify-center">
       <a
         href="https://github.com/skywalkerSam"
         target="_blank"
