@@ -5,7 +5,9 @@ export default function Page() {
   return (
     <div>
       <div className="flex min-h-screen flex-row items-center justify-center">
-        <StarboyLogo></StarboyLogo>
+        <div className="w-48 md:w-60 lg:w-72">
+          <StarboyLogo></StarboyLogo>
+        </div>
       </div>
       <div className="flex min-h-screen flex-row items-center justify-center">
         <MainTitle></MainTitle>

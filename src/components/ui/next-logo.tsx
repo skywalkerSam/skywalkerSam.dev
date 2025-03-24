@@ -10,8 +10,8 @@ export default function NextLogo(): JSX.Element {
           className="m-1 transition-opacity hover:opacity-80 dark:invert"
           src="/next.svg"
           alt="Next.js logo"
-          width={180}
-          height={38}
+          width={150}
+          height={36}
           priority
         />
       </a>
