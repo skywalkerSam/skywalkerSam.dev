@@ -1,12 +1,11 @@
 "use client";
 
 import Image from "next/image";
-import { starboyLogoStyles } from "~/styles/styles";
 import "~/styles/starboy-logo.css";
 
 export default function StarboyLogo() {
   return (
-    <div className={starboyLogoStyles.starboyLogo}>
+    <div className="flex flex-row items-center justify-center p-3">
       <a
         href="https://github.com/skywalkerSam"
         target="_blank"
@@ -15,8 +14,8 @@ export default function StarboyLogo() {
         <Image
           src="/icon.svg"
           alt="Starboy Logo"
-          width={210}
-          height={210}
+          width={300}
+          height={300}
           className="starboy-logo"
           priority
         ></Image>
