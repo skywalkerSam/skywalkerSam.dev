@@ -25,15 +25,16 @@ export default function AboutError({
   }, [error]);
 
   return (
-    <div
-      className="flex min-h-screen items-center justify-center p-3"
-      role="alert"
-    >
-      <div className="max-w-md rounded-lg bg-destructive/10 p-4 text-center text-destructive">
-        <h2 className="mb-2 text-lg font-semibold">Something went wrong!</h2>
-        <p className="mb-4 text-sm">Please try refreshing the page...</p>
+    <div className="flex min-h-screen items-center justify-center" role="alert">
+      <div className="max-w-md rounded-lg bg-destructive/10 p-9 text-center text-destructive">
+        <h2 className="mb-2 text-xl font-semibold md:text-3xl">
+          Something went wrong!
+        </h2>
+        <p className="mb-4 text-xs md:text-lg">
+          Please try refreshing the page...
+        </p>
         <Link href={"/"}>
-          <Button variant="ghost" className="gap-1 text-3xl">
+          <Button variant="ghost" className="gap-1 p-4 text-3xl">
             <span aria-hidden="true">♻️</span>
             {/* <span className="text-lg">Return to Home</span> */}
           </Button>
