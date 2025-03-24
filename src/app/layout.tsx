@@ -4,7 +4,7 @@ import { ThemeProvider } from "~/components/theme-provider";
 import Footer from "~/components/ui/footer";
 import { Ubuntu } from "next/font/google";
 // import TopBar from "~/components/ui/top-bar";
-import { NavigationMenuBar } from "~/components/ui/navigation-menu-bar";
+import { NavigationMenuBar } from "~/components/ui/navigation-menubar";
 
 const ubuntu = Ubuntu({
   weight: ["400", "700"],
