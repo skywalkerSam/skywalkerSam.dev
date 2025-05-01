@@ -22,7 +22,7 @@ export default function About() {
               href="https://twitter.com/skywalkerSam_"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-end justify-end hover:text-sky-200"
+              className="flex items-end justify-end hover:text-sky-200 text-xs"
             >
               @skywalkerSam_
             </a>
@@ -31,7 +31,18 @@ export default function About() {
       </div>
 
       <div className="flex min-h-screen flex-col items-center justify-center p-4">
-        <p className="text-xl text-black dark:invert md:text-2xl lg:text-3xl">
+        <p className="text-lg text-black dark:invert md:text-xl lg:text-2xl">
+          I've been learning to code for ~6 years now... i started off by
+          installing Ubuntu on my ancient PC, which was having a hard time with
+          Windows. i started learning more and more, and life went on and on...
+          and here i am. What began as a hobby turned into a kind of passion:
+          Linux, BA$H, Python, JavaScript, Node, React, NEXT, TypeScript, and
+          life goes on...
+        </p>
+      </div>
+
+      <div className="flex min-h-screen flex-col items-center justify-center p-4">
+        <p className="text-lg text-black dark:invert md:text-xl lg:text-2xl">
           in search of a better understanding of the world...
         </p>
       </div>
@@ -51,7 +62,7 @@ export default function About() {
         <div>
           <p className="text-lg text-black dark:invert md:text-xl lg:text-2xl">
             Oh, the name Starboy... First of all, No* it isn't inspired by The
-            Weeknd’s 2016 Album, Starboy (Although, it is a good album) The name
+            Weeknd’s 2016 Album, Starboy (Although, it is a good album.) The name
             "Starboy" originates from the mind of an optimistic little kid,
             i.e., me... initially, he was very excited about Space Exploration,
             Cosmic Wonders. He had a very optimistic view about the future of
