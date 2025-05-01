@@ -155,13 +155,13 @@ export function NavigationMenuBar() {
   return (
     <div className="flex">
       <div className="flex size-9 md:flex-none lg:flex-grow"></div>
-      <div className="size-9 flex-grow tracking-tighter md:tracking-normal">
+      <div className="size-9 flex-grow gap-0 tracking-tighter md:tracking-normal lg:tracking-wide">
         <NavigationMenu>
           <NavigationMenuList>
             <NavigationMenuItem>
               <NavigationMenuTrigger>Projects</NavigationMenuTrigger>
               <NavigationMenuContent>
-                <ul className="grid gap-3 p-4 md:w-[400px] lg:w-[500px] lg:grid-cols-[.75fr_1fr]">
+                <ul className="grid p-4 md:w-[400px] lg:w-[500px] lg:grid-cols-[.75fr_1fr]">
                   <li className="row-span-3">
                     <NavigationMenuLink asChild>
                       <a
@@ -178,7 +178,7 @@ export function NavigationMenuBar() {
                           <p className="text-sm leading-tight text-muted-foreground">
                             Handcrafted by
                           </p>
-                          skywalkerSam.dev
+                          Sam Skywalker
                         </div>
                       </a>
                     </NavigationMenuLink>
@@ -214,7 +214,7 @@ export function NavigationMenuBar() {
             <NavigationMenuItem>
               <NavigationMenuTrigger>Ex-Projects</NavigationMenuTrigger>
               <NavigationMenuContent>
-                <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px]">
+                <ul className="grid w-[400px] p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px]">
                   {exProjects.map((component) => (
                     <ListItem
                       key={component.title}
@@ -233,7 +233,7 @@ export function NavigationMenuBar() {
             <NavigationMenuItem>
               <NavigationMenuTrigger>Archives</NavigationMenuTrigger>
               <NavigationMenuContent>
-                <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px]">
+                <ul className="grid w-[400px] p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px]">
                   {archivedProjects.map((component) => (
                     <ListItem
                       key={component.title}

@@ -1,7 +1,7 @@
 "use client";
 
-import NextLogo from "~/components/ui/next-logo";
-import { ModeToggle } from "~/components/theme-toggle";
+import NextLogo from "~/components/next-logo";
+import { ModeToggle } from "~/components/ui/theme-toggle";
 
 export default function Footer() {
   return (
