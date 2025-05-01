@@ -6,7 +6,7 @@ export default function About() {
       <div className="min-h-screen p-4">
         <div className="flex flex-col items-center justify-center">
           <div className="mt-36">
-            <h1 className="py-9 text-3xl text-black dark:invert md:text-4xl lg:text-5xl">
+            <h1 className="py-9 text-2xl text-black dark:invert md:text-4xl lg:text-5xl">
               👋 I'm Sam, i write things...
             </h1>
           </div>
