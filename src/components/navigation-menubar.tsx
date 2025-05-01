@@ -178,7 +178,7 @@ export function NavigationMenuBar() {
                           <p className="text-sm leading-tight text-muted-foreground">
                             Handcrafted by
                           </p>
-                          skywalkerSam.dev
+                          Sam Skywalker
                         </div>
                       </a>
                     </NavigationMenuLink>

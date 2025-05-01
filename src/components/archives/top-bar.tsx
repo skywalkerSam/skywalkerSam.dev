@@ -5,12 +5,12 @@ import type { JSX } from "react";
 import {
   NavigationMenu,
   NavigationMenuContent,
-  NavigationMenuIndicator,
+  // NavigationMenuIndicator,
   NavigationMenuItem,
   NavigationMenuLink,
   NavigationMenuList,
   NavigationMenuTrigger,
-  NavigationMenuViewport,
+  // NavigationMenuViewport,
 } from "~/components/ui/navigation-menu";
 import Link from "next/link";
 
@@ -27,11 +27,11 @@ export default function TopBar(): JSX.Element {
           {/* Projects */}
 
           <NavigationMenuList>
-            <div className="p-1">
+            <div>
               <NavigationMenuItem>
                 <NavigationMenuTrigger>Projects</NavigationMenuTrigger>
                 <NavigationMenuContent>
-                  <div className="mb-1 ml-2 mr-2 mt-1 p-1">
+                  <div>
                     <NavigationMenuLink>
                       <a
                         href="https://github.com/skywalkerSam/dashboard-demo"
@@ -43,7 +43,7 @@ export default function TopBar(): JSX.Element {
                     </NavigationMenuLink>
                   </div>
 
-                  <div className="mb-1 ml-2 mr-2 mt-1 p-1">
+                  <div>
                     <NavigationMenuLink>
                       <a
                         href="https://github.com/skywalkerSam/next-gallery"
@@ -60,13 +60,13 @@ export default function TopBar(): JSX.Element {
           </NavigationMenuList>
 
           {/* Ex-Projects */}
-          
+
           <NavigationMenuList>
             <div className="p-1">
               <NavigationMenuItem>
                 <NavigationMenuTrigger>Ex-Projects</NavigationMenuTrigger>
                 <NavigationMenuContent>
-                  <div className="mb-1 ml-2 mr-2 mt-1 p-1">
+                  <div>
                     <NavigationMenuLink>
                       <a
                         href="https://github.com/skywalkerSam/stardate"
@@ -78,7 +78,7 @@ export default function TopBar(): JSX.Element {
                     </NavigationMenuLink>
                   </div>
 
-                  <div className="mb-1 ml-2 mr-2 mt-1 p-1">
+                  <div>
                     <NavigationMenuLink>
                       <a
                         href="https://github.com/skywalkerSam/houseOfCards"
@@ -90,7 +90,7 @@ export default function TopBar(): JSX.Element {
                     </NavigationMenuLink>
                   </div>
 
-                  <div className="mb-1 ml-2 mr-2 mt-1 p-1">
+                  <div>
                     <NavigationMenuLink>
                       <a
                         href="https://github.com/skywalkerSam/faceDetection"
@@ -102,7 +102,7 @@ export default function TopBar(): JSX.Element {
                     </NavigationMenuLink>
                   </div>
 
-                  <div className="mb-1 ml-2 mr-2 mt-1 p-1">
+                  <div>
                     <NavigationMenuLink>
                       <a
                         href="https://github.com/skywalkerSam/dalleWrapper"
@@ -114,7 +114,7 @@ export default function TopBar(): JSX.Element {
                     </NavigationMenuLink>
                   </div>
 
-                  <div className="mb-1 ml-2 mr-2 mt-1 p-1">
+                  <div>
                     <NavigationMenuLink>
                       <a
                         href="https://github.com/skywalkerSam/animalSearch"
@@ -136,7 +136,7 @@ export default function TopBar(): JSX.Element {
 
         <NavigationMenu>
           <NavigationMenuList>
-            <div className="mb-1 ml-2 mr-2 mt-1 p-1">
+            <div>
               <NavigationMenuItem>
                 <Link href="/about" legacyBehavior passHref>
                   <NavigationMenuLink className="pointer hover:text-sky-400">
