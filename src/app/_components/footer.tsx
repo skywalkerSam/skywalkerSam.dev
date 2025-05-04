@@ -1,11 +1,11 @@
 "use client";
 
-import NextLogo from "~/components/next-logo";
+import NextLogo from "~/app/_components/next-logo";
 import { ModeToggle } from "~/components/ui/theme-toggle";
 
 export default function Footer() {
   return (
-    <div className="flex flex-row items-center justify-center justify-items-end p-3 text-xs text-gray-600">
+    <div className="flex flex-row items-center justify-center justify-items-end p-9 text-xs text-gray-600">
       <div className="mr-2">
         <ModeToggle></ModeToggle>
       </div>

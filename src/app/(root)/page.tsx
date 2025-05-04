@@ -1,4 +1,4 @@
-import StarboyLogo from "~/components/starboy-logo";
+import StarboyLogo from "~/app/_components/starboy-logo";
 // import MainTitle from "~/components/main-title";
 
 export default function Page() {

@@ -1,10 +1,10 @@
 import "~/styles/globals.css";
 import type { Metadata } from "next";
 import { ThemeProvider } from "~/components/ui/theme-provider";
-import Footer from "~/components/footer";
+import Footer from "~/app/_components/footer";
 // import { Ubuntu } from "next/font/google";
 import { Geist } from "next/font/google";
-import { NavigationMenuBar } from "~/components/navigation-menubar";
+import { NavigationMenuBar } from "~/app/_components/navigation-menubar";
 
 // const ubuntu = Ubuntu({
 //   weight: ["400", "700"],
