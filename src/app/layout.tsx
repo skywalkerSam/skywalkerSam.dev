@@ -13,7 +13,6 @@ import { NavigationMenuBar } from "~/app/_components/navigation-menubar";
 //   display: "swap",
 // });
 
-
 const geist = Geist({
   subsets: ["latin"],
   variable: "--font-geist-sans",
@@ -38,7 +37,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <body className={`${geist.className} antialiased`}>
-      {/* <body className={`${ubuntu.className} antialiased`}> */}
+        {/* <body className={`${ubuntu.className} antialiased`}> */}
         <ThemeProvider
           attribute="class"
           defaultTheme="system"

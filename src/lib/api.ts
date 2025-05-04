@@ -9,6 +9,15 @@ export function getPostSlugs() {
   return fs.readdirSync(postsDirectory);
 }
 
+/**
+ * Retrieves a post by its slug.
+ * The function reads the markdown file for the specified slug from the posts directory,
+ * extracts the front matter and content, and returns a Post object.
+ *
+ * @param {string} slug - The slug of the post to retrieve.
+ * @returns {Post} The post object containing the front matter data, slug, and content.
+ */
+
 export function getPostBySlug(slug: string) {
   const realSlug = slug.replace(/\.md$/, "");
   const fullPath = join(postsDirectory, `${realSlug}.md`);

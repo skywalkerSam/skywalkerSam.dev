@@ -32,10 +32,10 @@ export function NavigationMenuBar() {
                     <NavigationMenuLink asChild>
                       <a
                         className="flex h-full w-full select-none flex-col justify-end rounded-md bg-gradient-to-b from-muted/50 to-muted p-6 no-underline outline-none focus:shadow-md"
-                        href="https://github.com/skywalkerSam"
+                        href="/"
                       >
                         <img
-                          src="/icon.svg"
+                          src="/starboy.svg"
                           height={60}
                           width={60}
                           alt="Starboy Logo"
@@ -121,19 +121,19 @@ export function NavigationMenuBar() {
         </NavigationMenu>
       </div>
       <div className="flex size-9 md:flex-none lg:flex-grow">
-        <a
-          href="https://github.com/skywalkerSam/skywalkerSam.dev"
+        {/* <a
+          href="https://github.com/skywalkerSam"
           target="_blank"
           rel="noopener noreferrer"
         >
           <img
-            src="/github-mark-white.svg"
+            src="/github-logo-white.svg"
             alt="GitHub Logo"
             width={30}
             height={30}
             className="mt-1 p-1"
           />
-        </a>
+        </a> */}
       </div>
     </div>
   );

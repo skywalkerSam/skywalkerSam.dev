@@ -5,14 +5,14 @@ import { ModeToggle } from "~/components/ui/theme-toggle";
 
 export default function Footer() {
   return (
-    <div className="flex flex-row items-center justify-center justify-items-end p-9 text-xs text-gray-600">
+    <div className="flex flex-row items-center justify-center justify-items-end py-12 text-xs text-gray-600">
       <div className="mr-2">
         <ModeToggle></ModeToggle>
       </div>
       <footer>
         <div>
           <p>Built w/</p>
-          <div className="w-36">
+          <div className="w-32">
             <NextLogo></NextLogo>
           </div>
           <p>

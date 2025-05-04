@@ -4,7 +4,7 @@ import { type Author } from "~/interfaces/author";
 import Link from "next/link";
 import DateFormatter from "./date-formatter";
 
-type Props = {
+export type HeroPostTypes = {
   title: string;
   coverImage: string;
   date: string;
@@ -20,7 +20,7 @@ export function HeroPost({
   excerpt,
   author,
   slug,
-}: Props) {
+}: HeroPostTypes) {
   return (
     <section>
       <div className="mb-8 md:mb-16">
