@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function About() {
   return (
     <main>
-      <div className="min-h-screen p-4 bg-gradient-to-b from-transparent via-blue-950 to-transparent">
+      <div className="min-h-screen p-4 bg-gradient-to-b from-transparent via-blue-400 to-transparent">
         <div className="flex flex-col items-center justify-center">
           <div className="mt-36">
             <h1 className="py-9 text-2xl text-black dark:invert md:text-4xl lg:text-5xl">
@@ -30,7 +30,7 @@ export default function About() {
         </div>
       </div>
 
-      <div className="flex min-h-screen flex-col items-center justify-center p-4 bg-gradient-to-b from-transparent via-cyan-950 to-transparent">
+      <div className="flex min-h-screen flex-col items-center justify-center p-4 bg-gradient-to-b from-transparent via-cyan-400 to-transparent">
         <p className="text-lg text-black dark:invert md:text-xl lg:text-2xl">
           I've been learning to code for ~6 years now... i started off by
           installing Ubuntu on my ancient PC, which was having a hard time with
@@ -41,13 +41,13 @@ export default function About() {
         </p>
       </div>
 
-      <div className="flex min-h-screen flex-col items-center justify-center p-4 bg-gradient-to-b from-transparent via-sky-950 to-transparent">
+      <div className="flex min-h-screen flex-col items-center justify-center p-4 bg-gradient-to-b from-transparent via-sky-400 to-transparent">
         <p className="text-lg text-black dark:invert md:text-xl lg:text-2xl">
           in search of a better understanding of the world...
         </p>
       </div>
 
-      <div className="flex min-h-screen flex-col p-9 bg-gradient-to-b from-transparent via-slate-900 to-transparent">
+      <div className="flex min-h-screen flex-col p-9 bg-gradient-to-b from-transparent via-slate-400 to-transparent">
         <div className="py-4">
           <a
             href="https://twitter.com/skywalkerSam_"

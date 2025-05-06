@@ -1,10 +1,15 @@
-# Starboy: Among the Stars...
+<div align="center">
+    <a href="https://skywalkerSam.dev">
+        <img src="https://github.com/starboy-inc.png" alt="Starboy Logo" height=128>
+    </a>
+    <h2>Welcome to My Personal Corner of The Web!</h2>
+    <p>Built w/ <a href="https://nextjs.org">Next.js</a> + <a href="https://vercel.com">Vercel</a>.</p>
+    <a href="https://github.com/vercel/next.js/blob/canary/license.md"><img alt="License" src="https://img.shields.io/npm/l/next.svg?style=for-the-badge&labelColor=000000"></a>
+</div>
 
-My personal corner of the web.
+<!-- Built w/ [NEXT.js](https://nextjs.org/) + [Vercel](https://vercel.com/). -->
 
-Built w/ [NEXT.js](https://nextjs.org/) + [Vercel](https://vercel.com/).
-
-## Deployments
+# Domains
 
 [skywalkerSam.dev](https://skywalkersam.dev)
 
@@ -18,10 +23,10 @@ Built w/ [NEXT.js](https://nextjs.org/) + [Vercel](https://vercel.com/).
 - [Flex Docs - tailwindcss](https://tailwindcss.com/docs/flex)
 
 
-## Initial Deployments w/ [Firebase](https://firebase.google.com/)
+<!-- ## initial Deployments w/ [Firebase](https://firebase.google.com/)
 
 [skywalkerSam-dev.web.app](https://skywalkerSam-dev.web.app)
 
-[skywalkersam-dev.firebaseapp.com](https://skywalkersam-dev.firebaseapp.com/)
+[skywalkersam-dev.firebaseapp.com](https://skywalkersam-dev.firebaseapp.com/) -->
 
 Until next time...✌️
