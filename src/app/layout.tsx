@@ -20,6 +20,7 @@ import { NavigationMenuBar } from "~/app/_components/navigation-menubar";
 // });
 
 const paprika = Paprika({
+  subsets: ["latin"],
   weight: "400",
   style: "normal",
 });
