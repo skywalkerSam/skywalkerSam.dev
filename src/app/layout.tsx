@@ -3,7 +3,8 @@ import type { Metadata } from "next";
 import { ThemeProvider } from "~/components/ui/theme-provider";
 import Footer from "~/app/_components/footer";
 // import { Ubuntu } from "next/font/google";
-import { Geist } from "next/font/google";
+// import { Geist } from "next/font/google";
+import { Paprika } from "next/font/google";
 import { NavigationMenuBar } from "~/app/_components/navigation-menubar";
 
 // const ubuntu = Ubuntu({
@@ -13,9 +14,14 @@ import { NavigationMenuBar } from "~/app/_components/navigation-menubar";
 //   display: "swap",
 // });
 
-const geist = Geist({
-  subsets: ["latin"],
-  variable: "--font-geist-sans",
+// const geist = Geist({
+//   subsets: ["latin"],
+//   variable: "--font-geist-sans",
+// });
+
+const paprika = Paprika({
+  weight: "400",
+  style: "normal",
 });
 
 // https://nextjs.org/learn/dashboard-app/adding-metadata
@@ -36,8 +42,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className={`${geist.className} antialiased`}>
-        {/* <body className={`${ubuntu.className} antialiased`}> */}
+      <body className={`${paprika.className} antialiased`}>
         <ThemeProvider
           attribute="class"
           defaultTheme="system"
