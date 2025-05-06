@@ -1,10 +1,10 @@
 <div align="center">
-    <a href="https://skywalkerSam.dev">
+    <a target="_blank" href="https://skywalkerSam.dev">
         <img src="https://github.com/starboy-inc.png" alt="Starboy Logo" height=128>
     </a>
     <h2>Welcome to My Personal Corner of The Web!</h2>
-    <p>Built w/ <a href="https://nextjs.org">Next.js</a> + <a href="https://vercel.com">Vercel</a>.</p>
-    <a href="https://github.com/vercel/next.js/blob/canary/license.md"><img alt="License" src="https://img.shields.io/npm/l/next.svg?style=for-the-badge&labelColor=000000"></a>
+    <p>Built w/ <a target="_blank" href="https://nextjs.org">Next.js</a> + <a href="https://vercel.com">Vercel</a>.</p>
+    <a target="_blank" href="https://github.com/vercel/next.js/blob/canary/license.md"><img alt="License" src="https://img.shields.io/npm/l/next.svg?style=for-the-badge&labelColor=000000"></a>
 </div>
 
 <!-- Built w/ [NEXT.js](https://nextjs.org/) + [Vercel](https://vercel.com/). -->
