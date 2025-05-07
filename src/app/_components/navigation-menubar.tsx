@@ -20,8 +20,8 @@ import { majorProjects } from "_data/projects/projects";
 export function NavigationMenuBar() {
   return (
     <div className="flex">
-      <div className="flex size-9 md:flex-none lg:flex-grow"></div>
-      <div className="flex size-9 flex-grow tracking-tight md:tracking-normal lg:tracking-wide">
+      <div className="flex size-0 flex-none"></div>
+      <div className="flex size-12 flex-grow tracking-tighter sm:tracking-tight md:flex-grow md:tracking-normal lg:tracking-wide xl:tracking-widest">
         <NavigationMenu>
           <NavigationMenuList>
             <NavigationMenuItem>
@@ -120,21 +120,7 @@ export function NavigationMenuBar() {
           </NavigationMenuList>
         </NavigationMenu>
       </div>
-      <div className="flex size-9 md:flex-none lg:flex-grow">
-        {/* <a
-          href="https://github.com/skywalkerSam"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <img
-            src="/github-logo-white.svg"
-            alt="GitHub Logo"
-            width={30}
-            height={30}
-            className="mt-1 p-1"
-          />
-        </a> */}
-      </div>
+      <div className="flex size-0 flex-none"></div>
     </div>
   );
 }

@@ -22,7 +22,7 @@ export default function About() {
               href="https://twitter.com/skywalkerSam_"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-end justify-end hover:text-sky-200 text-xs"
+              className="flex items-end justify-end hover:text-sky-400 text-xs"
             >
               @skywalkerSam_
             </a>

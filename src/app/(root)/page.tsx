@@ -6,7 +6,7 @@ export default function Page() {
     <div className="flex min-h-screen flex-col items-center justify-center text-white">
       <div className="container flex flex-col items-center justify-center">
         <div className="flex min-h-screen flex-row items-center justify-center">
-          <div className="w-48 md:w-60">
+          <div className="w-36 sm:w-48 md:w-60 lg:w-72 xl:w-96">
             <StarboyLogo></StarboyLogo>
           </div>
         </div>

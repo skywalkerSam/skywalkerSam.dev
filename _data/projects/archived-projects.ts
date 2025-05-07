@@ -8,7 +8,7 @@ export const archivedProjects: Projects[] = [
       "Hello World for Every Programming Language possible! Hopefully.)",
   },
   {
-    title: "...introductionToWebDevelopment",
+    title: "introductionToWebDevelopment",
     href: "https://github.com/skywalkerSam/introductionToWebDevelopment",
     description: "Introduction to Web Development, fr*",
   },

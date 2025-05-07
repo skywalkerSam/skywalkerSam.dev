@@ -5,21 +5,21 @@ import { ModeToggle } from "~/components/ui/theme-toggle";
 
 export default function Footer() {
   return (
-    <div className="flex flex-row items-center justify-center justify-items-end py-12 text-xs text-gray-600">
+    <div className="flex flex-row items-center justify-center justify-items-end py-12">
       <div className="mr-2">
         <ModeToggle></ModeToggle>
       </div>
       <footer>
         <div>
-          <p>Built w/</p>
-          <div className="w-32">
+          <p className="text-xs text-black dark:invert">Built w/</p>
+          <div className="w-36">
             <NextLogo></NextLogo>
           </div>
-          <p>
+          <p className="text-xs">
             &copy; 12025,{" "}
             <a
               href="https://github.com/skywalkerSam/"
-              className="hover:text-sky-400 hover:underline focus:text-sky-400"
+              className="hover:text-sky-400"
               target="_blank"
               rel="noopener noreferrer"
             >
