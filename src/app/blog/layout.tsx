@@ -15,7 +15,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <main className="bg-gradient-to-b from-transparent via-sky-400 to-transparent">
+    <main className="bg-gradient-to-b from-transparent via-sky-950 to-transparent">
       {children}
     </main>
   );
