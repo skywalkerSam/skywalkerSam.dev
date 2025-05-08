@@ -6,8 +6,20 @@ type Props = {
 const Avatar = ({ name, picture }: Props) => {
   return (
     <div className="flex items-center">
-      <img src={picture} className="w-12 h-12 rounded-full mr-4" alt={name} />
-      <div className="text-xl font-bold">{name}</div>
+      <a
+        href="https://instagram.com/skywalkersam_"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <img src={picture} className="mr-4 h-12 w-12 rounded-full" alt={name} />
+      </a>
+      <a
+        href="https://twitter.com/skywalkerSam_"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <div className="text-xl font-bold hover:underline">{name}</div>
+      </a>
     </div>
   );
 };
