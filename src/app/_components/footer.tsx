@@ -11,7 +11,7 @@ export default function Footer() {
       </div>
       <footer>
         <div>
-          <p className="text-xs text-black dark:invert">Built w/</p>
+          <p className="text-xs">Built w/</p>
           <div className="w-36">
             <NextLogo></NextLogo>
           </div>
