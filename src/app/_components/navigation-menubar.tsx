@@ -14,7 +14,7 @@ import {
   navigationMenuTriggerStyle,
 } from "~/components/ui/navigation-menu";
 import { exProjects } from "_data/projects/ex-projects";
-import { archivedProjects } from "_data/projects/archived-projects";
+// import { archivedProjects } from "_data/projects/archived-projects";
 import { majorProjects } from "_data/projects/projects";
 
 export function NavigationMenuBar() {
@@ -83,7 +83,7 @@ export function NavigationMenuBar() {
               </NavigationMenuContent>
             </NavigationMenuItem>
 
-            <NavigationMenuItem>
+            {/* <NavigationMenuItem>
               <NavigationMenuTrigger>Archives</NavigationMenuTrigger>
               <NavigationMenuContent>
                 <ul className="grid w-[400px] p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px]">
@@ -100,7 +100,7 @@ export function NavigationMenuBar() {
                   ))}
                 </ul>
               </NavigationMenuContent>
-            </NavigationMenuItem>
+            </NavigationMenuItem> */}
 
             <NavigationMenuItem>
               <Link href="/blog" legacyBehavior passHref>
