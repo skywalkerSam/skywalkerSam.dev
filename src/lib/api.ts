@@ -17,7 +17,6 @@ export function getPostSlugs() {
  * @param {string} slug - The slug of the post to retrieve.
  * @returns {Post} The post object containing the front matter data, slug, and content.
  */
-
 export function getPostBySlug(slug: string) {
   const realSlug = slug.replace(/\.md$/, "");
   const fullPath = join(postsDirectory, `${realSlug}.md`);

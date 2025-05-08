@@ -9,6 +9,17 @@ import Header from "../../_components/header";
 import { PostBody } from "../../_components/post-body";
 import { PostHeader } from "../../_components/post-header";
 
+/**
+ * Renders a blog post page.
+ *
+ * This component fetches the post data based on the provided slug,
+ * converts the post content from markdown to HTML, and displays
+ * the post with its header and body. If the post is not found, it
+ * triggers a not found response.
+ *
+ * @param {Params} props - The parameters containing the post slug.
+ * @returns {JSX.Element} The JSX element for the post page.
+ */
 export default async function Post(props: Params) {
   const params = await props.params;
   const post = getPostBySlug(params.slug);

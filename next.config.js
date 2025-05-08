@@ -14,6 +14,12 @@ const config = {
         port: "",
         pathname: "/**",
       },
+      {
+        protocol: "https",
+        hostname: "images-assets.nasa.gov",
+        port: "",
+        pathname: "/**",
+      },
     ],
   },
 
