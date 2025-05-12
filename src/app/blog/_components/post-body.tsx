@@ -1,4 +1,5 @@
 import markdownStyles from "./markdown-styles.module.css";
+// import DOMPurify from "dompurify";
 
 type Props = {
   content: string;
@@ -10,6 +11,7 @@ export function PostBody({ content }: Props) {
       <div
         className={markdownStyles["markdown"]}
         dangerouslySetInnerHTML={{ __html: content }}
+        // dangerouslySetInnerHTML={{ __html: DOMPurify.sanitize(content) }}
       />
     </div>
   );
