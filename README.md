@@ -21,6 +21,7 @@
 - [Blog Starter Kit](https://vercel.com/templates/next.js/blog-starter-kit)
 - [CREATE T3 APP](https://create.t3.gg/)
 - [Flex Docs - tailwindcss](https://tailwindcss.com/docs/flex)
+- [Font: Paprika](https://github.com/etunni/paprika)
 
 
 <!-- ## initial Deployments w/ [Firebase](https://firebase.google.com/)
