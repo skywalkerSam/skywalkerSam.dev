@@ -7,7 +7,7 @@ export default function About() {
         <div className="flex flex-col items-center justify-center">
           <div className="mt-36">
             <h1 className="py-9 text-2xl md:text-4xl lg:text-5xl xl:text-6xl">
-              👋 I'm Sam, i write things...
+              👋 i'm Sam, i write things...
             </h1>
           </div>
           <div className="w-48 py-4 md:w-60 lg:w-72">
@@ -38,7 +38,7 @@ export default function About() {
 
       <div className="flex min-h-screen flex-col items-center justify-center bg-gradient-to-b from-transparent via-cyan-400 to-transparent p-4">
         <p className="mx-auto max-w-3xl text-lg tracking-tight sm:tracking-normal md:max-w-4xl md:text-xl md:tracking-wide lg:text-2xl lg:tracking-wider xl:tracking-widest">
-          I've been learning to code for ~6 years now... i started off by
+          i've been learning to code for ~6 years now. i started off by
           installing Ubuntu on my ancient PC, which was having a hard time with
           Windows. i started learning more and more, and life went on and on...
           and here i am. What began as a hobby turned into a kind of passion:
