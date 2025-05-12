@@ -23,7 +23,7 @@ A fun fact: My birthday comes on the 21st of July. Yeah, missed it by a day, but
 
 Going to the moon, literally! What an exciting time to be alive… Scary, but exciting nonetheless. Here’s a classic from *Frank Sinatra:* [**Fly Me To The Moon…**](https://open.spotify.com/track/7FXj7Qg3YorUxdrzvrcY25?si=32ece20e1eb34893)
 
-Try to imagine being on the surface of the moon, you look around, there’s nothingness… No sign of life, and darkness as far as the eyes can see… A naked view of the world beyond… And then there’s [**this**](https://images.nasa.gov/details/as11-44-6551)... Everything you’ve ever known, everyone who has ever lived, the essence of the entire human civilization… Right here, and you’re looking at it… Wondering and struggling to comprehend the sheer strange essence of it all… it is in moments like these when the entire essence of [**existence**](https://images.nasa.gov/details/GSFC_20171208_Archive_e001651) comes alive…
+Try to imagine being on the surface of the moon, you look around, there’s nothingness… No sign of life, and darkness as far as the eyes can see… A naked view of the world beyond… And then there’s [**this**](https://images.nasa.gov/details/as11-44-6551)... Everything you’ve ever known, everyone who has ever lived, the essence of the entire human civilization… Right here, and you’re looking at it… Wondering and struggling to comprehend the sheer strangeness of it all… it is in the moments like these when the entire essence of [**existence**](https://images.nasa.gov/details/GSFC_20171208_Archive_e001651) comes alive…
 
 Watch [**this**!](https://www.youtube.com/watch?v=CwQPaoYZgp0)
 
