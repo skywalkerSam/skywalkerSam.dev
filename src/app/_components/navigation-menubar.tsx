@@ -16,6 +16,7 @@ import {
 import { exProjects } from "_data/projects/ex-projects";
 // import { archivedProjects } from "_data/projects/archived-projects";
 import { majorProjects } from "_data/projects/projects";
+import Image from "next/image";
 
 export function NavigationMenuBar() {
   return (
@@ -34,12 +35,13 @@ export function NavigationMenuBar() {
                         className="flex h-full w-full select-none flex-col justify-end rounded-md bg-gradient-to-b from-muted/50 to-muted p-6 no-underline outline-none focus:shadow-md"
                         href="/"
                       >
-                        <img
+                        <Image
                           src="/starboy.svg"
                           height={60}
                           width={60}
                           alt="Starboy Logo"
-                        ></img>
+                          priority
+                        ></Image>
                         <div className="mb-2 mt-4 text-lg font-medium">
                           <p className="text-sm leading-tight text-muted-foreground">
                             Handcrafted by
