@@ -5,36 +5,56 @@ import { join } from "path";
 
 const postsDirectory = join(process.cwd(), "_data/posts/");
 
-export function getPostSlugs() {
-  return fs.readdirSync(postsDirectory);
+// export function getPostSlugs() {
+//   return fs.readdirSync(postsDirectory);
+// }
+
+export async function getPostSlugs() {
+  try {
+    return await fs.promises.readdir(postsDirectory);
+  } catch (error) {
+    console.error("Error reading post slugs:", error);
+    return [];
+  }
 }
 
-/**
- * Retrieves a post by its slug.
- * The function reads the markdown file for the specified slug from the posts directory,
- * extracts the front matter and content, and returns a Post object.
- *
- * @param {string} slug - The slug of the post to retrieve.
- * @returns {Post} The post object containing the front matter data, slug, and content.
- */
-export function getPostBySlug(slug: string) {
+// export function getPostBySlug(slug: string) {
+//   const realSlug = slug.replace(/\.md$/, "");
+//   const fullPath = join(postsDirectory, `${realSlug}.md`);
+//   const fileContents = fs.readFileSync(fullPath, "utf8");
+//   const { data, content } = matter(fileContents);
+
+//   return { ...data, slug: realSlug, content } as Post;
+// }
+
+export async function getPostBySlug(slug: string): Promise<Post | null> {
   const realSlug = slug.replace(/\.md$/, "");
   const fullPath = join(postsDirectory, `${realSlug}.md`);
-  const fileContents = fs.readFileSync(fullPath, "utf8");
-  const { data, content } = matter(fileContents);
+  try {
+    const fileContents = await fs.promises.readFile(fullPath, "utf8");
+    const { data, content } = matter(fileContents);
 
-  return { ...data, slug: realSlug, content } as Post;
+    return { ...data, slug: realSlug, content } as Post;
+  } catch (error) {
+    console.error(`Error reading post ${slug}:`, error);
+    return null;
+  }
 }
 
-/**
- * Returns an array of all posts.
- * The posts are sorted in descending order by date.
- * @returns {Post[]} An array of all posts.
- */
-export function getAllPosts(): Post[] {
-  const slugs = getPostSlugs();
-  const posts = slugs
-    .map((slug) => getPostBySlug(slug))
+// export function getAllPosts(): Post[] {
+//   const slugs = getPostSlugs();
+//   const posts = slugs
+//     .map((slug) => getPostBySlug(slug))
+//     // sort posts by date in descending order
+//     .sort((post1, post2) => (post1.date > post2.date ? -1 : 1));
+//   return posts;
+// }
+
+export async function getAllPosts(): Promise<Post[]> {
+  const slugs = await getPostSlugs();
+  const postPromises = slugs.map((slug) => getPostBySlug(slug));
+  const posts = (await Promise.all(postPromises))
+    .filter((post): post is Post => post !== null)
     // sort posts by date in descending order
     .sort((post1, post2) => (post1.date > post2.date ? -1 : 1));
   return posts;
