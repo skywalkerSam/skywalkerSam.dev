@@ -1,3 +1,4 @@
+// moved to `Ex-Projects`
 import { Projects } from "~/interfaces/project-types";
 
 export const archivedProjects: Projects[] = [
