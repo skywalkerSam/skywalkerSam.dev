@@ -6,7 +6,7 @@ export default function About() {
       <div className="min-h-screen bg-gradient-to-b from-transparent via-blue-400 to-transparent p-4">
         <div className="flex flex-col items-center justify-center">
           <div className="mt-36">
-            <h1 className="py-9 text-2xl md:text-4xl lg:text-5xl xl:text-6xl">
+            <h1 className="py-9 text-xl sm:text-2xl md:text-4xl lg:text-5xl xl:text-6xl">
               👋 i'm Sam, i write things...
             </h1>
           </div>
