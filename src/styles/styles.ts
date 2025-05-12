@@ -16,9 +16,9 @@ export const layoutStyles = {
 // /gallery
 export const galleryStyles = {
   centeredDiv: centeredDivStyle,
-  loading: "h-[475px] w-[475px] animate-pulse bg-slate-900",
+  loading: "h-[475px] w-[475px] animate-pulse bg-slate-400",
   grid: "grid grid-cols-3 gap-3",
-  gradiantBackground: "bg-gradient-to-b from-blue-950 to-black",
+  gradiantBackground: "bg-gradient-to-b from-blue-400 to-black",
 } as const;
 
 // PWA-specific styles

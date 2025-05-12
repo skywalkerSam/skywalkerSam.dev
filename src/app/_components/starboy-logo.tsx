@@ -7,12 +7,12 @@ export default function StarboyLogo() {
   return (
     <div className="flex flex-row items-center justify-center">
       <a
-        href="https://github.com/skywalkerSam"
+        href="https://github.com/skywalkerSam/skywalkerSam.dev"
         target="_blank"
         rel="noopener noreferrer"
       >
         <Image
-          src="/icon.svg"
+          src="/starboy.svg"
           alt="Starboy Logo"
           width={300}
           height={300}
