@@ -4,8 +4,8 @@ import { Intro } from "./_components/intro";
 import { MoreStories } from "./_components/more-stories";
 import { getAllPosts } from "~/lib/api";
 
-export default function Index() {
-  const allPosts = getAllPosts();
+export default async function Index() {
+  const allPosts = await getAllPosts();
 
   const heroPost = allPosts[0] ?? ({} as HeroPostTypes);
 
