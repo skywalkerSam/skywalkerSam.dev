@@ -20,8 +20,8 @@ import { majorProjects } from "_data/projects/projects";
 export function NavigationMenuBar() {
   return (
     <div className="flex">
-      <div className="flex size-0 flex-none"></div>
-      <div className="flex size-12 flex-grow tracking-tighter sm:tracking-tight md:flex-grow md:tracking-normal lg:tracking-wide xl:tracking-widest">
+      <div className="flex flex-none sm:size-12 md:flex-grow xl:flex-none"></div>
+      <div className="flex size-12 flex-grow tracking-tighter sm:tracking-tight md:flex-auto md:tracking-normal lg:tracking-wide xl:tracking-widest">
         <NavigationMenu>
           <NavigationMenuList>
             <NavigationMenuItem>
@@ -120,7 +120,7 @@ export function NavigationMenuBar() {
           </NavigationMenuList>
         </NavigationMenu>
       </div>
-      <div className="flex size-0 flex-none"></div>
+      <div className="flex flex-none md:size-12 md:flex-grow xl:flex-none"></div>
     </div>
   );
 }
