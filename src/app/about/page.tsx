@@ -47,7 +47,7 @@ export default function About() {
         </p>
       </div>
 
-      <div className="flex min-h-screen flex-col bg-gradient-to-b from-transparent via-amber-400 to-transparent p-9">
+      {/* <div className="flex min-h-screen flex-col bg-gradient-to-b from-transparent via-amber-400 to-transparent p-9">
         <div className="mx-auto max-w-3xl text-lg tracking-tight sm:tracking-normal md:max-w-4xl md:text-xl md:tracking-wide lg:text-2xl lg:tracking-wider xl:tracking-widest">
           <div className="py-4">
             <a
@@ -62,37 +62,11 @@ export default function About() {
           </div>
           <div>
             <p className="text-lg md:text-xl lg:text-2xl">
-              Oh, the name Starboy... First of all, No* it isn't inspired by The
-              Weeknd’s 2016 Album, Starboy (Although, it is a good album.) The
-              name "Starboy" originates from the mind of an optimistic little
-              kid, i.e., me... initially, he was very excited about Space
-              Exploration, Cosmic Wonders. He had a very optimistic view about
-              the future of Human Civilization. He was all about optimism and
-              hope... And that is a good thing to see in a teenage kid. All that
-              energy and excitement without the need for caffeine* But sadly,
-              life goes on... You live, you learn, you grow. Even after all this
-              time, i keep the name "Starboy" to remind me of that sweet little
-              kid, even though now it seems a bit corny and cringe asf. At that
-              time, i really believed that anything was possible… As i chose
-              this name, my heart was in the right place: We all are, in fact,
-              Stardust. We really are... A star had to collapse in order to give
-              life the elements it needs to emerge... We live in a universe
-              where energy can't be created or destroyed. All energy is but
-              borrowed. So, in the end, the dynamic pattern, i.e., us, dissolves
-              into its simpler forms. And, the pattern keeps repeating itself
-              for reasons beyond our current understanding of the world, the
-              universe, our shared existence, and whatever tf lies beyond... So,
-              here i stand... a complicated collection of atoms that originated
-              from a tiny region of a collapsing Star in a galaxy far, far
-              away... And, traveled through a vast, hostile, lifeless and
-              utterly meaningless universe, and against all odds, here i fucking
-              am... Contemplating my existence and just wondering about all
-              there is in this absurdly strange little life... And after all, i
-              am a Boy, so there you go... "Starboy"
+              Moved to blogs... A Starboy
             </p>
           </div>
         </div>
-      </div>
+      </div> */}
     </main>
   );
 }
