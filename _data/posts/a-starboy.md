@@ -1,14 +1,15 @@
 ---
-title: "A Starboy"
+title: "A Starboy..."
 excerpt: "The reasoning behind the title \"Starboy.\" in other words, who is Starboy? And, what does it stand for…?"
-coverImage: "/starboy.svg"
+coverImage: "https://images-assets.nasa.gov/image/PIA15416/PIA15416~orig.jpg"
 date: "2025-05-09T03:35:07.322Z"
 author:
   name: Sam Skywalker
   picture: "https://github.com/skywalkerSam.png"
 ogImage:
-  url: "/starboy.svg"
+  url: "https://images-assets.nasa.gov/image/PIA15416/PIA15416~orig.jpg"
 ---
+
 
 Oh, the title Starboy... First of all, No* it isn't inspired by The Weeknd’s 2016 Album, Starboy (Although, it is a good album.)
 
@@ -32,4 +33,4 @@ And after all, i am a boy, so there you go... "Starboy"
 
 
 
-
+[(**Image Source**)](https://images.nasa.gov/details/PIA15416)
