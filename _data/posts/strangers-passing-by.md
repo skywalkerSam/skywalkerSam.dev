@@ -10,7 +10,6 @@ ogImage:
   url: "https://images-assets.nasa.gov/image/hubble-observes-one-of-a-kind-star-nicknamed-nasty_17754652960_o/hubble-observes-one-of-a-kind-star-nicknamed-nasty_17754652960_o~orig.jpg"
 ---
 
-<!-- [**Image Source**](https://images.nasa.gov/details/hubble-observes-one-of-a-kind-star-nicknamed-nasty_17754652960_o) -->
 
 
 i see you, and i wish that i could help you, girl, but i,
@@ -34,5 +33,4 @@ i wish i could just give you it all, but i can’t, for i am just a stranger pas
 
 
 
-
-
+[(**Image Source**)](https://images.nasa.gov/details/hubble-observes-one-of-a-kind-star-nicknamed-nasty_17754652960_o)
