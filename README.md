@@ -4,7 +4,7 @@
     </a>
     <h2>Welcome to My Personal Corner of The Web!</h2>
     <p>Built w/ <a href="https://nextjs.org">Next.js</a> + <a href="https://vercel.com">Vercel</a>.</p>
-    <a href="https://github.com/vercel/next.js/blob/canary/license.md"><img alt="License" src="https://img.shields.io/npm/l/next.svg?style=for-the-badge&labelColor=000000"></a>
+    <!-- <a href="https://github.com/vercel/next.js/blob/canary/license.md"><img alt="License" src="https://img.shields.io/npm/l/next.svg?style=for-the-badge&labelColor=000000"></a> -->
 </div>
 
 <!-- Built w/ [NEXT.js](https://nextjs.org/) + [Vercel](https://vercel.com/). -->
