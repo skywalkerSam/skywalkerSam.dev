@@ -7,7 +7,7 @@ type Props = {
 
 export function PostBody({ content }: Props) {
   return (
-    <div className="mx-auto max-w-3xl text-lg tracking-tight sm:tracking-normal md:max-w-4xl md:text-xl md:tracking-wide lg:text-2xl lg:tracking-wider xl:tracking-widest">
+    <div className="mx-auto max-w-3xl md:text-xl lg:max-w-4xl lg:text-2xl lg:tracking-wide xl:max-w-5xl">
       <div
         className={markdownStyles["markdown"]}
         dangerouslySetInnerHTML={{ __html: content }}
