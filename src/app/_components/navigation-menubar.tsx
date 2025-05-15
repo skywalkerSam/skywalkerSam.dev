@@ -22,7 +22,7 @@ export function NavigationMenuBar() {
   return (
     <div className="flex">
       <div className="flex flex-none sm:size-12"></div>
-      <div className="flex size-12 flex-grow tracking-tighter sm:tracking-tight md:tracking-normal lg:tracking-wide xl:tracking-widest">
+      <div className="flex size-12 flex-grow">
         <NavigationMenu>
           <NavigationMenuList>
             <NavigationMenuItem>
