@@ -33,4 +33,13 @@ i wish i could just give you it all, but i can’t, for i am just a stranger pas
 
 
 
+## Sources...
+
 [(**image Source**)](https://images.nasa.gov/details/hubble-observes-one-of-a-kind-star-nicknamed-nasty_17754652960_o)
+
+
+
+
+
+
+Until next time...✌️
