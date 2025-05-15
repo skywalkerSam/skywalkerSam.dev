@@ -6,7 +6,7 @@ export default function About() {
       <div className="min-h-screen bg-gradient-to-b from-transparent via-blue-400 to-transparent p-4">
         <div className="flex flex-col items-center justify-center">
           <div className="mt-36">
-            <h1 className="py-9 text-xl sm:text-2xl md:text-4xl lg:text-6xl xl:text-7xl">
+            <h1 className="py-9 text-xl sm:text-2xl md:text-4xl lg:text-6xl">
               👋 i'm Sam, i write things...
             </h1>
           </div>
@@ -31,13 +31,13 @@ export default function About() {
       </div>
 
       <div className="flex min-h-screen flex-col items-center justify-center bg-gradient-to-b from-transparent via-sky-400 to-transparent p-4">
-        <p className="mx-auto max-w-3xl text-xl md:max-w-4xl lg:text-2xl xl:text-3xl">
+        <p className="mx-auto max-w-3xl text-xl md:max-w-4xl lg:text-2xl">
           in search of a better understanding of the world...
         </p>
       </div>
 
       <div className="flex min-h-screen flex-col items-center justify-center bg-gradient-to-b from-transparent via-cyan-400 to-transparent p-4">
-        <p className="mx-auto max-w-3xl text-xl md:max-w-4xl lg:text-2xl xl:text-3xl">
+        <p className="mx-auto max-w-3xl text-xl md:max-w-4xl lg:text-2xl">
           i've been learning to code for ~6 years now. i started off by
           installing Ubuntu on my ancient PC, which was having a hard time with
           Windows. i started learning more and more, and life went on and on...
