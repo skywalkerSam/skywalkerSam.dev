@@ -46,7 +46,7 @@ Just Keep Going…
 
 ## Sources...
 
-[(**Image Source**)](https://images.nasa.gov/details/s31-05-008)
+[(**image Source**)](https://images.nasa.gov/details/s31-05-008)
 
 [(**Blade Runner 2049**)](https://open.spotify.com/album/5kSUsy5FU3Wcxd4DBvXFm4?si=FPaZOVxFR7K74mKiK2_UIA)
 
