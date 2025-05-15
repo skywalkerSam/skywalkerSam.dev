@@ -6,7 +6,7 @@ export default function About() {
       <div className="min-h-screen bg-gradient-to-b from-transparent via-blue-400 to-transparent p-4">
         <div className="flex flex-col items-center justify-center">
           <div className="mt-36">
-            <h1 className="py-9 text-xl sm:text-2xl md:text-4xl lg:text-5xl xl:text-6xl">
+            <h1 className="py-9 text-xl sm:text-2xl md:text-4xl lg:text-6xl">
               👋 i'm Sam, i write things...
             </h1>
           </div>
@@ -31,13 +31,13 @@ export default function About() {
       </div>
 
       <div className="flex min-h-screen flex-col items-center justify-center bg-gradient-to-b from-transparent via-sky-400 to-transparent p-4">
-        <p className="mx-auto max-w-3xl text-lg tracking-tight sm:tracking-normal md:max-w-4xl md:text-xl md:tracking-wide lg:text-2xl lg:tracking-wider xl:tracking-widest">
+        <p className="mx-auto max-w-3xl text-lg md:max-w-4xl md:text-xl md:tracking-wide lg:text-2xl">
           in search of a better understanding of the world...
         </p>
       </div>
 
       <div className="flex min-h-screen flex-col items-center justify-center bg-gradient-to-b from-transparent via-cyan-400 to-transparent p-4">
-        <p className="mx-auto max-w-3xl text-lg tracking-tight sm:tracking-normal md:max-w-4xl md:text-xl md:tracking-wide lg:text-2xl lg:tracking-wider xl:tracking-widest">
+        <p className="mx-auto max-w-3xl text-lg md:max-w-4xl md:text-xl md:tracking-wide lg:text-2xl">
           i've been learning to code for ~6 years now. i started off by
           installing Ubuntu on my ancient PC, which was having a hard time with
           Windows. i started learning more and more, and life went on and on...
@@ -46,27 +46,6 @@ export default function About() {
           life goes on...
         </p>
       </div>
-
-      {/* <div className="flex min-h-screen flex-col bg-gradient-to-b from-transparent via-amber-400 to-transparent p-9">
-        <div className="mx-auto max-w-3xl text-lg tracking-tight sm:tracking-normal md:max-w-4xl md:text-xl md:tracking-wide lg:text-2xl lg:tracking-wider xl:tracking-widest">
-          <div className="py-4">
-            <a
-              href="https://twitter.com/skywalkerSam_"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-xs hover:text-sky-200"
-            >
-              @skywalkerSam_
-            </a>
-            <h1 className="mb-4 text-4xl md:text-5xl">Starboy...</h1>
-          </div>
-          <div>
-            <p className="text-lg md:text-xl lg:text-2xl">
-              Moved to blogs... A Starboy
-            </p>
-          </div>
-        </div>
-      </div> */}
     </main>
   );
 }
