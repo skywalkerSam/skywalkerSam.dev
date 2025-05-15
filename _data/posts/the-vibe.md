@@ -10,6 +10,10 @@ ogImage:
   url: "https://images-assets.nasa.gov/image/s31-05-008/s31-05-008~orig.jpg"
 ---
 
+&nbsp;
+&nbsp;
+&nbsp;
+
 Going into a night that seems endless... just thinking, wandering, wondering, existing... Everything just starts to make sense in a way that doesn't usually… Just living somewhere, doing something, existing in this particular moment in time, and headed towards a future that is uncertain and unknown…
 
 Going round and round on a [**Planet**](https://images.nasa.gov/details/PIA18033) that itself goes round and round with no destination in particular, that itself exists inside a galaxy as a mere speck of dust in the grand scheme of things, and whose vastness is just beyond human comprehension. And, which also happens to just move round and round in itself without any specific goal or purpose. All just moving, hoping to reach somewhere with no destination in particular…
@@ -44,11 +48,19 @@ That’s life… Gotta keep moving, and gotta keep going…
 
 Just Keep Going…
 
-## Sources...
+&nbsp;
+&nbsp;
+&nbsp;
+
+## Sources
 
 [(**image Source**)](https://images.nasa.gov/details/s31-05-008)
 
-## Musical Sources...
+&nbsp;
+&nbsp;
+&nbsp;
+
+## Musical Sources
 
 [(**Interstellar**)](https://open.spotify.com/album/3B61kSKTxlY36cYgzvf3cP?si=wwnMw_gWQZWbLdTZhNWY1A)
 
@@ -58,12 +70,8 @@ Just Keep Going…
 
 [(**It Was A Very Good Year...**)](https://open.spotify.com/track/1vLPTWPfJSIrqOhNUWNfNY?si=0a0f7ccaf3804d4e)
 
-
-
-
-
-
-
-
+&nbsp;
+&nbsp;
+&nbsp;
 
 Until next time...✌️

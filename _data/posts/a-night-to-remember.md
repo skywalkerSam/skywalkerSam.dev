@@ -10,6 +10,10 @@ ogImage:
   url: "https://images-assets.nasa.gov/image/GSFC_20171208_Archive_e000536/GSFC_20171208_Archive_e000536~orig.jpg"
 ---
 
+&nbsp;
+&nbsp;
+&nbsp;
+
 it was a strange night. Just walking down some street, appreciating the solitary nature of it all... Glimpsing at the stars... in my own little head, just wondering what it all means... Our lives... The strangely wild and absurd nature of our shared existence... Just wandering, wondering, and cherishing some of the nostalgic memories that i hold very dear in life... You know, the usual...
 
 Yeah, might be a little drunk hence the aimless wandering in the night... Wrong place, wrong time, i guess... Something might've happened, i can't seem to remember exactly what... But, i know this: i am a very understanding human being. That is just my nature...
@@ -28,11 +32,12 @@ He got up and started running... i'm just standing there struggling to understan
 
 What the fuck happened back there... i'm exhausted, and will rest for now...
 
-
+&nbsp;
+&nbsp;
+&nbsp;
 
 Until next time...✌️
 
-
-
-
-
+&nbsp;
+&nbsp;
+&nbsp;
