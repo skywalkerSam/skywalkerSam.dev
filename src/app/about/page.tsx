@@ -31,7 +31,7 @@ export default function About() {
       </div>
 
       <div className="flex min-h-screen flex-col items-center justify-center bg-gradient-to-b from-transparent via-sky-400 to-transparent p-4">
-        <p className="mx-auto max-w-3xl text-lg md:max-w-4xl md:text-xl md:tracking-wide lg:text-2xl">
+        <p className="mx-auto max-w-3xl text-xl md:max-w-4xl md:text-2xl md:tracking-wide lg:text-3xl">
           in search of a better understanding of the world...
         </p>
       </div>
