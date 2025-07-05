@@ -33,11 +33,11 @@ Try to imagine being on the surface of the moon, you look around, there’s noth
 &nbsp;
 &nbsp;
 
-## Sources...
+## Sources
 
-[(**image Source**)](https://images.nasa.gov/details/S65-29730)
+– Cover image [(**Source**)](https://images.nasa.gov/details/S65-29730)
 
-Watch [**this**!](https://www.youtube.com/watch?v=CwQPaoYZgp0)
+– Watch [**this**!](https://www.youtube.com/watch?v=CwQPaoYZgp0)
 
 &nbsp;
 &nbsp;
