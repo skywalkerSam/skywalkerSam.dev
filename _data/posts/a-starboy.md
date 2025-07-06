@@ -1,6 +1,6 @@
 ---
 title: "A Starboy..."
-excerpt: "The reasoning behind the title \"Starboy.\" in other words, who is Starboy? And, what does it stand for…?"
+excerpt: "...Who is Starboy?"
 coverImage: "https://images-assets.nasa.gov/image/PIA15416/PIA15416~orig.jpg"
 date: "2025-05-09T03:35:07.322Z"
 author:
