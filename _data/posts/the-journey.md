@@ -1,6 +1,6 @@
 ---
 title: "The Journey..."
-excerpt: "The journey is all there is. And the only journey is the one within, for no destination is final. One after the other, and life goes on…"
+excerpt: "No destination is final. The journey is all there is, and the only journey is the one within."
 coverImage: "https://images-assets.nasa.gov/image/NHQ202211040023/NHQ202211040023~orig.jpg"
 date: "2025-05-21T03:35:07.322Z"
 author:
@@ -14,7 +14,7 @@ ogImage:
 &nbsp;
 &nbsp;
 
-The journey is all there is. And the only journey is the one within, for no destination is final. One after the other, and life goes on…
+No destination is final. The journey is all there is, and the only journey is the one within. For one after the other, and round and round we go… Life goes on,
 
 i am going home for a family wedding, and i’m stuck on this train, which already had a long journey duration of ~48 long hours, and is now running ~24 hours late. Three whole days on a train…
 
