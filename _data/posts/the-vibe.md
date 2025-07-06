@@ -1,6 +1,6 @@
 ---
 title: "The Vibe..."
-excerpt: "it's a vibe... i personally love the Blade Runner 2049 Soundtrack Album, and Interstellar sits right beside it."
+excerpt: "it's the vibe..."
 coverImage: "https://images-assets.nasa.gov/image/s31-05-008/s31-05-008~orig.jpg"
 date: "2025-05-15T03:35:07.322Z"
 author:
