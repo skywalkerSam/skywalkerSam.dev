@@ -11,8 +11,6 @@ ogImage:
 ---
 
 &nbsp;
-&nbsp;
-&nbsp;
 
 Going into a night that seems endless... just thinking, wandering, wondering, existing... Everything just starts to make sense in a way that doesn't usually… Just living somewhere, doing something, existing in this particular moment in time, and headed towards a future that is uncertain and unknown…
 
@@ -55,8 +53,6 @@ Just Keep Going…
 So strange this life, just a dream of a dream…
 
 &nbsp;
-&nbsp;
-&nbsp;
 
 ## Sources
 
@@ -70,8 +66,6 @@ So strange this life, just a dream of a dream…
 
 – it Was A Very Good Year [(**Song**)](https://open.spotify.com/track/1vLPTWPfJSIrqOhNUWNfNY?si=0a0f7ccaf3804d4e)
 
-&nbsp;
-&nbsp;
 &nbsp;
 
 Until next time...✌️
