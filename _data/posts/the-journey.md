@@ -11,8 +11,6 @@ ogImage:
 ---
 
 &nbsp;
-&nbsp;
-&nbsp;
 
 No destination is final. The journey is all there is, and the only journey is the one within. For one after the other, and round and round we go… Life goes on,
 
@@ -41,8 +39,6 @@ As a wise man once said, “i’ve seen a lot of beautiful things with a heavy h
 Life goes on,
 
 &nbsp;
-&nbsp;
-&nbsp;
 
 ## Sources
 
@@ -57,11 +53,5 @@ Life goes on,
 – Teen Dream ([**Album**](https://open.spotify.com/album/6psfQ7hu5uqFLkdtWyygcT?si=cU_VWYFIRze-R-B1A8VQSQ))
 
 &nbsp;
-&nbsp;
-&nbsp;
 
 Until next time...✌️
-
-&nbsp;
-&nbsp;
-&nbsp;
