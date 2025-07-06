@@ -11,8 +11,6 @@ ogImage:
 ---
 
 &nbsp;
-&nbsp;
-&nbsp;
 
 Astronaut Edward H. White II, pilot for the Gemini-Titan 4 (GT-4) spaceflight, floats in the zero-gravity of space during the third revolution of the GT-4 spacecraft.
 
@@ -30,8 +28,6 @@ Going to the moon, literally! What an exciting time to be alive… Scary, but ex
 Try to imagine being on the surface of the moon, you look around, there’s nothingness… No sign of life, and darkness as far as the eyes can see… A naked view of the world beyond… And then there’s [**this**](https://images.nasa.gov/details/as11-44-6551)... Everything you’ve ever known, everyone who has ever lived, the essence of the entire human civilization… Right here, and you’re looking at it… Wondering and struggling to comprehend the sheer strangeness of it all… it is in the moments like these when the entire essence of [**existence**](https://images.nasa.gov/details/GSFC_20171208_Archive_e001651) comes alive…
 
 &nbsp;
-&nbsp;
-&nbsp;
 
 ## Sources
 
@@ -39,8 +35,6 @@ Try to imagine being on the surface of the moon, you look around, there’s noth
 
 – Watch [**this**!](https://www.youtube.com/watch?v=CwQPaoYZgp0)
 
-&nbsp;
-&nbsp;
 &nbsp;
 
 Until Next Time…✌️

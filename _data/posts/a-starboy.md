@@ -1,6 +1,6 @@
 ---
 title: "A Starboy..."
-excerpt: "The reasoning behind the title \"Starboy.\" in other words, who is Starboy? And, what does it stand for…?"
+excerpt: "...Who is Starboy?"
 coverImage: "https://images-assets.nasa.gov/image/PIA15416/PIA15416~orig.jpg"
 date: "2025-05-09T03:35:07.322Z"
 author:
@@ -10,8 +10,6 @@ ogImage:
   url: "https://images-assets.nasa.gov/image/PIA15416/PIA15416~orig.jpg"
 ---
 
-&nbsp;
-&nbsp;
 &nbsp;
 
 Oh, the title Starboy... First of all, No* it isn't inspired by The Weeknd’s 2016 Album, Starboy (Although, it is a good album.)
@@ -30,18 +28,16 @@ So, here i stand... a complicated collection of atoms that originated from a tin
 
 Contemplating my existence, asking questions, wandering and wondering about all there is in this absurdly strange little life...
 
-And after all, i am a boy, so there you go... "Starboy"
+&nbsp;
 
-&nbsp;
-&nbsp;
+And after all, i am a boy, so there you go... "Starboy."
+
 &nbsp;
 
 ## Sources
 
 – Cover image [(**Source**)](https://images.nasa.gov/details/PIA15416)
 
-&nbsp;
-&nbsp;
 &nbsp;
 
 Until next time...✌️
