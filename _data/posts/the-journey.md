@@ -48,6 +48,8 @@ Life goes on,
 
 – it Was a Very Good Year ([**Song**](https://open.spotify.com/track/2ID3rNM3hFBjqrLcV0Wr0y?si=24ed3ec09b394753))
 
+– Everything is on repeat ([**Mix**](https://open.spotify.com/playlist/4xY8EheRhjuEg90yVjnoxS?si=df10615517ea478c))
+
 – Born Free ([**Song**](https://open.spotify.com/track/1axMv0PvvjKVG5MEbJ2Sxo?si=a2d8c27e7f6b4c93))
 
 – Teen Dream ([**Album**](https://open.spotify.com/album/6psfQ7hu5uqFLkdtWyygcT?si=cU_VWYFIRze-R-B1A8VQSQ))
