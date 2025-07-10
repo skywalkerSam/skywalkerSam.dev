@@ -166,7 +166,8 @@ So, i’m waiting for the train... and playing the "Blade Runner 2049” soundtr
 
 But not today. Not Today. (Yeah, from that episode from The Game of Thrones.) Not Today. it is the very human part of me that just refuses to give up, for rebellion is in my nature (Yeah, Star Wars.) We do not go gentle into that good night (Interstellar). Just existing for the thrill of it all, to experience life, goddamn it. And to show existence the finger that it so absurdly deserves...
 
-As a wise man once said, "There's no absolute destination. No feeling is final. The journey is all there is, and the only journey is the one within."  
+As a wise man once said, "There's no absolute destination. No feeling is final. The journey is all there is, and the only journey is the one within."
+
 So nowadays, i just simply try to enjoy life… as simple as that and as complicated as that. Life goes on, life always goes on… So, the show must go on… like that wise man once said, "One must not be overwhelmed by sadness."
 
 Life goes on,
