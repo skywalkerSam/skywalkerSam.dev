@@ -13,7 +13,7 @@ export default function AnimatedIntro() {
     );
   });
   return (
-    <div className="flex min-h-screen px-6 md:justify-center md:px-0">
+    <div className="flex min-h-screen justify-center items-center px-3">
       <div className="hero-text">
         <h1>
           <span className="slide">
@@ -45,7 +45,6 @@ export default function AnimatedIntro() {
             <span className="wrapper">
               {doList.map((word, i) => (
                 <span key={i} className="flex items-center gap-1 pb-2 md:gap-3">
-                  
                   <span className="text-sky-400">{word.text}</span>
                 </span>
               ))}

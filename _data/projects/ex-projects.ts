@@ -15,7 +15,7 @@ export const exProjects: Projects[] = [
   {
     title: "JS 101",
     href: "https://github.com/skywalkerSam/JS-101",
-    description: 'JavaScript 101 (Not, Java. "JavaScript".)',
+    description: 'JavaScript 101 (Not Java, "JavaScript".)',
   },
   {
     title: "Project Cortana",
