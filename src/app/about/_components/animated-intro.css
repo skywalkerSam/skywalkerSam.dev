@@ -1,10 +1,10 @@
 .hero-text {
-  @apply pointer-events-none relative z-10 flex flex-col justify-center text-[30px] font-semibold md:text-[60px];
+  @apply pointer-events-none relative z-10 flex flex-col justify-center text-[45px] font-semibold md:text-[60px];
   img {
     @apply size-8 object-contain md:size-10;
   }
   .slide {
-    @apply h-[48px] translate-y-0 overflow-hidden px-2 py-[30px] pt-0 md:h-[78px] md:translate-y-1 md:px-5;
+    @apply h-[54px] translate-y-0 overflow-hidden px-2 py-[30px] pt-0 md:h-[78px] md:translate-y-1 md:px-5;
   }
 }
 
