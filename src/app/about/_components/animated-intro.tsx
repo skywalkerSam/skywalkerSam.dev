@@ -11,7 +11,7 @@ export default function AnimatedIntro() {
       { y: 30, opacity: 0 },
       { y: 0, opacity: 1, stagger: 0.2, duration: 1, ease: "power2.inOut" },
     );
-  });
+  }, []);
   return (
     <div className="flex min-h-screen justify-center items-center px-3">
       <div className="hero-text">
