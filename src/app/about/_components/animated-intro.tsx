@@ -13,7 +13,7 @@ export default function AnimatedIntro() {
     );
   });
   return (
-    <div className="flex min-h-screen px-36">
+    <div className="flex min-h-screen px-6 md:justify-center md:px-0">
       <div className="hero-text">
         <h1>
           <span className="slide">
