@@ -68,4 +68,4 @@ So strange this life, just a dream of a dream…
 
 &nbsp;
 
-Until next time...✌️
+Until Next Time... ✌️
