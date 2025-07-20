@@ -67,3 +67,9 @@
     @apply bg-background text-foreground;
   }
 }
+
+@media (prefers-reduced-motion: reduce) {
+  .wrapper {
+    animation-play-state: paused;
+  }
+}

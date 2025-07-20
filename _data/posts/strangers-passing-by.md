@@ -40,6 +40,4 @@ Poetry is good. For it is in strange moments like these when the entire essence 
 
 &nbsp;
 
-Until next time...✌️
-
-&nbsp;
+Until Next Time... ✌️

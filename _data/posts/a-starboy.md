@@ -1,13 +1,13 @@
 ---
 title: "A Starboy..."
-excerpt: "...Who is Starboy?"
-coverImage: "https://images-assets.nasa.gov/image/PIA15416/PIA15416~orig.jpg"
+excerpt: "... Who is Starboy?"
+coverImage: "https://images-assets.nasa.gov/image/GSFC_20171208_Archive_e001979/GSFC_20171208_Archive_e001979~orig.jpg"
 date: "2025-05-09T03:35:07.322Z"
 author:
   name: Sam Skywalker
   picture: "https://github.com/skywalkerSam.png"
 ogImage:
-  url: "https://images-assets.nasa.gov/image/PIA15416/PIA15416~orig.jpg"
+  url: "https://images-assets.nasa.gov/image/GSFC_20171208_Archive_e001979/GSFC_20171208_Archive_e001979~orig.jpg"
 ---
 
 &nbsp;
@@ -36,8 +36,8 @@ And after all, i am a boy, so there you go... "Starboy."
 
 ## Sources
 
-– Cover image [(**Source**)](https://images.nasa.gov/details/PIA15416)
+– Cover image [(**Source**)](https://images.nasa.gov/details/GSFC_20171208_Archive_e001979)
 
 &nbsp;
 
-Until next time...✌️
+Until Next Time... ✌️
