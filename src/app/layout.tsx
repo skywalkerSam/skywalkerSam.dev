@@ -1,7 +1,7 @@
 import "~/styles/globals.css";
 import type { Metadata } from "next";
 import { ThemeProvider } from "~/components/ui/theme-provider";
-import Footer from "~/app/_components/footer";
+// import Footer from "~/app/_components/footer";
 // import { Ubuntu } from "next/font/google";
 // import { Geist } from "next/font/google";
 import { Paprika } from "next/font/google";
@@ -46,14 +46,14 @@ export default function RootLayout({
       <body className={`${paprika.className} antialiased`}>
         <ThemeProvider
           attribute="class"
-          defaultTheme="light"
+          defaultTheme="dark"
           enableSystem
           disableTransitionOnChange
         >
           <NavigationMenuBar></NavigationMenuBar>
           <main>{children}</main>
 
-          <Footer></Footer>
+          {/* <Footer></Footer> */}
         </ThemeProvider>
       </body>
     </html>

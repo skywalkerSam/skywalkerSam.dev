@@ -1,3 +1,4 @@
+import Footer from "../../components/footer";
 import Container from "./_components/container";
 import { HeroPost, HeroPostTypes } from "./_components/hero-post";
 import { Intro } from "./_components/intro";
@@ -25,6 +26,7 @@ export default async function Index() {
         />
         {morePosts.length > 0 && <MoreStories posts={morePosts} />}
       </Container>
+      <Footer></Footer>
     </main>
   );
 }

@@ -1,18 +1,14 @@
-import StarboyLogo from "~/app/_components/starboy-logo";
-// import MainTitle from "~/components/main-title";
+import Stars from "~/components/Stars";
+import StarboyLogo from "../_components/starboy-logo";
 
 export default function Page() {
   return (
-    <div className="flex min-h-screen flex-col items-center justify-center text-white">
-      <div className="container flex flex-col items-center justify-center">
-        <div className="flex min-h-screen flex-row items-center justify-center">
-          <div className="w-36 sm:w-48 md:w-60 lg:w-72 xl:w-96">
-            <StarboyLogo></StarboyLogo>
-          </div>
+    <div className="relative w-screen h-screen">
+      <Stars></Stars>
+      <div className="flex min-h-screen items-center justify-center relative z-1">
+        <div className="w-36 sm:w-40 md:w-48">
+          <StarboyLogo></StarboyLogo>
         </div>
-        {/* <div className="flex min-h-screen flex-row items-center justify-center">
-        <MainTitle></MainTitle>
-      </div> */}
       </div>
     </div>
   );
