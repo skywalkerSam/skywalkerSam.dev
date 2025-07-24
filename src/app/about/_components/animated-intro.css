@@ -17,10 +17,19 @@
 .wrapper {
   display: flex;
   flex-direction: column;
-  animation: wordSlider 12s infinite cubic-bezier(0.9, 0.01, 0.3, 0.99);
+  animation: wordSlider 10s infinite cubic-bezier(0.9, 0.01, 0.3, 0.99);
 }
 
 @keyframes wordSlider {
+  0% {
+    transform: translateY(-1%);
+  }
+  50% {
+    transform: translateY(-56%);
+  }
+}
+
+/* @keyframes wordSlider {
   0% {
     transform: translateY(0.5%);
   }
@@ -45,4 +54,4 @@
   87.5% {
     transform: translateY(-87.5%);
   }
-}
+} */
