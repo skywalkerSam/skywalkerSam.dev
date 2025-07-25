@@ -21,6 +21,7 @@ export default function Particles({ count = 300 }) {
   }, [count]);
 
   useFrame(() => {
+    if (!mesh.current) return;
     const positions = mesh.current.geometry.attributes.position.array;
     for (let i = 0; i < count; i++) {
       let y = positions[i * 3 + 1];
