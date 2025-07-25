@@ -23,8 +23,8 @@ export default function Stars() {
       <OrbitControls
         // enablePan={false} // Prevents panning of the scene
         // enableZoom={!isTablet} // Disables zoom on tablets
-        maxDistance={6} // Maximum distance for zooming out
-        minDistance={9} // Minimum distance for zooming in
+        maxDistance={9} // Maximum distance for zooming out
+        minDistance={6} // Minimum distance for zooming in
         // minPolarAngle={Math.PI / 5} // Minimum angle for vertical rotation
         // maxPolarAngle={Math.PI / 2} // Maximum angle for vertical rotation
       />
