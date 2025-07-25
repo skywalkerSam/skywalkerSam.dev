@@ -53,7 +53,7 @@ export default function Particles({ count = 300 }) {
       <pointsMaterial
         color="#ffffff"
         // size={0.05}
-        size={0.03}
+        size={0.036}
         transparent
         opacity={0.9}
         depthWrite={false}
