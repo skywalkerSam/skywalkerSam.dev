@@ -7,7 +7,7 @@ export default function StarboyLogo() {
   return (
     <div className="flex flex-row items-center justify-center">
       <a
-        href="https://github.com/skywalkerSam/skywalkerSam.dev"
+        href="https://github.com/skywalkerSam/"
         target="_blank"
         rel="noopener noreferrer"
       >

@@ -3,11 +3,8 @@
         <img src="https://github.com/starboy-inc.png" alt="Starboy Logo" height=128>
     </a>
     <h1>Welcome to My Personal Corner of The Web!</h1>
-    <p>Built w/ <a href="https://nextjs.org">Next.js</a> + <a href="https://vercel.com">Vercel</a>.</p>
-    <!-- <a href="https://github.com/vercel/next.js/blob/canary/license.md"><img alt="License" src="https://img.shields.io/npm/l/next.svg?style=for-the-badge&labelColor=000000"></a> -->
+    
 </div>
-
-<!-- Built w/ [NEXT.js](https://nextjs.org/) + [Vercel](https://vercel.com/). -->
 
 ## Domains
 
@@ -29,6 +26,12 @@
 
 [skywalkersam-dev.firebaseapp.com](https://skywalkersam-dev.firebaseapp.com/) -->
 
-<br>
+&nbsp;
 
 Until Next Time...✌️
+
+&nbsp;
+
+<div align="center">
+<p>Built w/ <a href="https://nextjs.org">Next.js</a> + <a href="https://vercel.com">Vercel</a>.</p>
+</div>
