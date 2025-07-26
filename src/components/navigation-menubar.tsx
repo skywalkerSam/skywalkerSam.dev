@@ -13,9 +13,9 @@ import {
   NavigationMenuTrigger,
   navigationMenuTriggerStyle,
 } from "~/components/ui/navigation-menu";
-import { exProjects } from "_data/projects/ex-projects";
+// import { exProjects } from "_data/projects/ex-projects";
 // import { archivedProjects } from "_data/projects/archived-projects";
-import { majorProjects } from "_data/projects/projects";
+// import { majorProjects } from "_data/projects/projects";
 import Image from "next/image";
 
 export function NavigationMenuBar() {
@@ -26,32 +26,33 @@ export function NavigationMenuBar() {
         <NavigationMenu>
           <NavigationMenuList>
             <NavigationMenuItem>
-              <NavigationMenuTrigger>Projects</NavigationMenuTrigger>
+              <Link href="/"><NavigationMenuTrigger>Home</NavigationMenuTrigger></Link>
               <NavigationMenuContent>
-                <ul className="grid p-4 md:w-[400px] lg:w-[500px] lg:grid-cols-[.75fr_1fr]">
-                  <li className="row-span-3">
-                    <NavigationMenuLink asChild>
-                      <a
-                        className="flex h-full w-full select-none flex-col justify-end rounded-md bg-gradient-to-b from-muted/50 to-muted p-6 no-underline outline-none focus:shadow-md"
-                        href="/"
-                      >
-                        <Image
-                          src="/starboy.svg"
-                          height={60}
-                          width={60}
-                          alt="Starboy Logo"
-                          priority
-                        ></Image>
-                        <div className="mb-2 mt-4 text-lg font-medium">
-                          <p className="text-sm leading-tight text-muted-foreground">
-                            Handcrafted by
-                          </p>
-                          Sam Skywalker
-                        </div>
-                      </a>
-                    </NavigationMenuLink>
-                  </li>
-                  {majorProjects.map((component) => (
+                <ul className="grid p-4 md:w-[300px]">
+                  {/* <ul className="grid p-4 md:w-[400px] lg:w-[500px] lg:grid-cols-[.75fr_1fr]"> */}
+                  {/* <li className="row-span-3"> */}
+                  <NavigationMenuLink asChild>
+                    <a
+                      className="flex h-full w-full select-none flex-col justify-end rounded-md bg-gradient-to-b from-muted/50 to-muted p-6 no-underline outline-none focus:shadow-md"
+                      href="/"
+                    >
+                      <Image
+                        src="/starboy.svg"
+                        height={60}
+                        width={60}
+                        alt="Starboy Logo"
+                        priority
+                      ></Image>
+                      <div className="mb-2 mt-4 text-lg font-medium">
+                        <p className="text-sm leading-tight text-muted-foreground">
+                          Handcrafted by
+                        </p>
+                        Sam Skywalker
+                      </div>
+                    </a>
+                  </NavigationMenuLink>
+                  {/* </li> */}
+                  {/* {majorProjects.map((component) => (
                     <ListItem
                       key={component.title}
                       title={component.title}
@@ -61,14 +62,23 @@ export function NavigationMenuBar() {
                     >
                       {component.description}
                     </ListItem>
-                  ))}
+                  ))} */}
                 </ul>
               </NavigationMenuContent>
             </NavigationMenuItem>
 
             <NavigationMenuItem>
-              <NavigationMenuTrigger>Ex-Projects</NavigationMenuTrigger>
-              <NavigationMenuContent>
+              {/* <NavigationMenuTrigger>Projects</NavigationMenuTrigger> */}
+              <Link
+                href="https://projects.skywalkerSam.dev"
+                legacyBehavior
+                passHref
+              >
+                <NavigationMenuLink className={navigationMenuTriggerStyle()}>
+                  Projects
+                </NavigationMenuLink>
+              </Link>
+              {/* <NavigationMenuContent>
                 <ul className="grid w-[400px] p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px]">
                   {exProjects.map((component) => (
                     <ListItem
@@ -82,7 +92,7 @@ export function NavigationMenuBar() {
                     </ListItem>
                   ))}
                 </ul>
-              </NavigationMenuContent>
+              </NavigationMenuContent> */}
             </NavigationMenuItem>
 
             {/* <NavigationMenuItem>
@@ -105,7 +115,11 @@ export function NavigationMenuBar() {
             </NavigationMenuItem> */}
 
             <NavigationMenuItem>
-              <Link href="https://blog.skywalkerSam.dev" legacyBehavior passHref>
+              <Link
+                href="https://blog.skywalkerSam.dev"
+                legacyBehavior
+                passHref
+              >
                 <NavigationMenuLink className={navigationMenuTriggerStyle()}>
                   Blog
                 </NavigationMenuLink>

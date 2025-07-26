@@ -5,7 +5,7 @@ import { ThemeProvider } from "~/components/ui/theme-provider";
 // import { Ubuntu } from "next/font/google";
 // import { Geist } from "next/font/google";
 import { Paprika } from "next/font/google";
-import { NavigationMenuBar } from "~/app/_components/navigation-menubar";
+import { NavigationMenuBar } from "~/components/navigation-menubar";
 
 // const ubuntu = Ubuntu({
 //   weight: ["400", "700"],
