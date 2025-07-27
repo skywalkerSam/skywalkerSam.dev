@@ -78,5 +78,8 @@ html,
 body {
   margin: 0;
   padding: 0;
-  overflow: hidden; /* Prevents scrollbars */
+  /* Prevents scrollbars */
+  /* overflow: hidden;  */
+  overflow-x: hidden; 
+  /* overflow-y: hidden; */
 }
