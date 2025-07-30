@@ -1,6 +1,6 @@
 import Stars from "~/components/Stars";
-import StarboyLogo from "../../components/starboy-logo";
-import Footer from "~/components/footer";
+import StarboyLogo from "~/components/StarboyLogo";
+import Footer from "~/components/Footer";
 
 export default function Page() {
   return (
