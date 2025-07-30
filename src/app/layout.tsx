@@ -5,7 +5,7 @@ import { ThemeProvider } from "~/components/ui/theme-provider";
 // import { Ubuntu } from "next/font/google";
 // import { Geist } from "next/font/google";
 import { Paprika } from "next/font/google";
-import { NavigationMenuBar } from "~/components/navigation-menubar";
+import { NavBar } from "~/components/NavBar";
 
 // const ubuntu = Ubuntu({
 //   weight: ["400", "700"],
@@ -50,7 +50,7 @@ export default function RootLayout({
           enableSystem
           disableTransitionOnChange
         >
-          <NavigationMenuBar></NavigationMenuBar>
+          <NavBar></NavBar>
           <main>{children}</main>
 
           {/* <Footer></Footer> */}
