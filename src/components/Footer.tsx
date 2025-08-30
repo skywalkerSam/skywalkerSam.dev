@@ -1,7 +1,7 @@
 "use client";
 
-import NextLogo from "~/components/NextLogo";
-import { ModeToggle } from "~/components/ui/theme-toggle";
+import NextLogo from "./NextLogo";
+import { ModeToggle } from "./ui/theme-toggle";
 
 export default function Footer() {
   return (
@@ -16,10 +16,11 @@ export default function Footer() {
             <NextLogo></NextLogo>
           </div>
           <p className="text-xs">
-            &copy; 12025,{" "}
+            {/* &copy; 12025,{" "} */}
+            &copy; {new Date().getFullYear() + 10000},{" "}
             <a
-              href="https://twitter.com/skywalkerSam_/"
-              className="hover:text-sky-400"
+              href="https://github.com/skywalkerSam"
+              className="hover:text-primary"
               target="_blank"
               rel="noopener noreferrer"
             >
