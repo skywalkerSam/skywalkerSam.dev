@@ -24,9 +24,14 @@ export function ModeToggle() {
         (e.target as HTMLElement | null)?.isContentEditable;
       if (isTyping) return;
       const key = e.key.toLowerCase();
+      // forcing dark theme due to the nature of the canvas in the background
       if (e.shiftKey && key === "d") setTheme("dark");
-      else if (e.shiftKey && key === "l") setTheme("light");
-      else if (e.shiftKey && key === "s") setTheme("system");
+      else if (e.shiftKey && key === "l") setTheme("dark");
+      else if (e.shiftKey && key === "s") setTheme("dark");
+
+      // else if (e.shiftKey && key === "l") setTheme("light");
+      // else if (e.shiftKey && key === "s") setTheme("system");
+
 
       // if (e.shiftKey && e.key === "D") {
       //   setTheme("dark");
