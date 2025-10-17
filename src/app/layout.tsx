@@ -1,23 +1,9 @@
 import "~/styles/globals.css";
 import type { Metadata } from "next";
 import { ThemeProvider } from "~/components/ui/theme-provider";
-// import Footer from "~/components/footer";
-// import { Ubuntu } from "next/font/google";
-// import { Geist } from "next/font/google";
 import { Paprika } from "next/font/google";
 import { NavBar } from "~/components/NavBar";
-
-// const ubuntu = Ubuntu({
-//   weight: ["400", "700"],
-//   style: ["normal", "italic"],
-//   subsets: ["latin"],
-//   display: "swap",
-// });
-
-// const geist = Geist({
-//   subsets: ["latin"],
-//   variable: "--font-geist-sans",
-// });
+import Footer from "~/components/Footer";
 
 const paprika = Paprika({
   subsets: ["latin"],
@@ -47,13 +33,13 @@ export default function RootLayout({
         <ThemeProvider
           attribute="class"
           defaultTheme="dark"
-          enableSystem
+          // enableSystem
           disableTransitionOnChange
         >
           <NavBar></NavBar>
           <main>{children}</main>
 
-          {/* <Footer></Footer> */}
+          <Footer></Footer>
         </ThemeProvider>
       </body>
     </html>
