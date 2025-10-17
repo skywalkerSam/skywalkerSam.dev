@@ -1,6 +1,6 @@
 "use client";
 import "./animated-intro.css";
-import { nameList, doList, emojiList } from "_data/constants";
+import { nameList, doList, emojiList } from "~/lib/constants";
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 
