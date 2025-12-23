@@ -22,7 +22,7 @@ export default function Intro() {
             href="https://twitter.com/skywalkerSam_"
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-end justify-end text-xs hover:text-sky-400"
+            className="flex items-end justify-end text-xs hover:text-sky-500"
           >
             @skywalkerSam_
           </a>

@@ -4,7 +4,7 @@
     @apply size-8 object-contain md:size-10;
   }
   .slide {
-    @apply h-[60px] translate-y-0 overflow-hidden px-2 py-[30px] pt-0 md:h-[78px] md:translate-y-1 md:px-5;
+    @apply h-[54px] translate-y-0 overflow-hidden px-2 py-2 pt-0 md:h-[75px] md:translate-y-1 md:px-5;
   }
 }
 

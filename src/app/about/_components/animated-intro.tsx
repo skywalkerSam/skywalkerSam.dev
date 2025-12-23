@@ -37,12 +37,12 @@ export default function AnimatedIntro() {
           </span>
         </h1>
         <h1>
-          i<span className="text-sky-400">&apos;</span>m
+          i<span className="text-sky-500">&apos;</span>m
           <span className="slide">
             <span className="wrapper">
               {nameList.map((word, i) => (
                 <span key={i} className="flex items-center gap-1 pb-2 md:gap-3">
-                  <span className="text-sky-400">{word.text}</span>
+                  <span className="text-sky-500">{word.text}</span>
                 </span>
               ))}
             </span>
@@ -54,14 +54,14 @@ export default function AnimatedIntro() {
             <span className="wrapper">
               {doList.map((word, i) => (
                 <span key={i} className="flex items-center gap-1 pb-2 md:gap-3">
-                  <span className="text-sky-400">{word.text}</span>
+                  <span className="text-sky-500">{word.text}</span>
                 </span>
               ))}
             </span>
           </span>
         </h1>
         <h1>
-          Stuff<span className="text-sky-400">.</span>
+          Stuff<span className="text-sky-500">.</span>
         </h1>
       </div>
     </div>

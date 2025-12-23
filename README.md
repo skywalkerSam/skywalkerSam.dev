@@ -2,7 +2,7 @@
     <a href="https://skywalkerSam.dev">
         <img src="https://github.com/starboy-inc.png" alt="Starboy Logo" height=128>
     </a>
-    <h1>Among the Stars...</h1>
+    <h1>Starboy inc.</h1>
     
 </div>
 
