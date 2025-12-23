@@ -20,7 +20,7 @@ export function NavBar() {
         <NavigationMenu>
           <NavigationMenuList>
             <NavigationMenuItem>
-              <Link href="/" legacyBehavior passHref>
+              <Link href="/"  passHref>
                 <NavigationMenuLink className={navigationMenuTriggerStyle()}>
                   Home
                 </NavigationMenuLink>
@@ -31,7 +31,7 @@ export function NavBar() {
               {/* <NavigationMenuTrigger>Projects</NavigationMenuTrigger> */}
               <Link
                 href="https://projects.skywalkerSam.dev"
-                legacyBehavior
+                
                 passHref
               >
                 <NavigationMenuLink className={navigationMenuTriggerStyle()}>
@@ -43,7 +43,7 @@ export function NavBar() {
             <NavigationMenuItem>
               <Link
                 href="https://blog.skywalkerSam.dev"
-                legacyBehavior
+                
                 passHref
               >
                 <NavigationMenuLink className={navigationMenuTriggerStyle()}>
@@ -53,7 +53,7 @@ export function NavBar() {
             </NavigationMenuItem>
 
             <NavigationMenuItem>
-              <Link href="/about" legacyBehavior passHref>
+              <Link href="/about"  passHref>
                 <NavigationMenuLink className={navigationMenuTriggerStyle()}>
                   About
                 </NavigationMenuLink>

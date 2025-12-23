@@ -1,7 +1,6 @@
 "use client";
 
 import Image from "next/image";
-import "~/styles/starboy-logo.css";
 
 export default function StarboyLogo() {
   return (

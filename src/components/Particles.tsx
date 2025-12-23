@@ -2,7 +2,7 @@
 import { useRef, useMemo } from "react";
 import { useFrame } from "@react-three/fiber";
 
-export default function Particles({ count = 300 }) {
+export default function Particles({ count = 360 }) {
   const mesh = useRef(null);
 
   const particles = useMemo(() => {
@@ -53,10 +53,9 @@ export default function Particles({ count = 300 }) {
       {/* TODO: dark:invert */}
       <pointsMaterial
         color="#ffffff"
-        // size={0.05}
-        size={0.036}
-        transparent
-        opacity={0.9}
+        size={0.021}
+        // transparent
+        opacity={1}
         depthWrite={false}
       />
     </points>
