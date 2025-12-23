@@ -92,4 +92,8 @@ body {
         filter: drop-shadow(0 0 1em gray);
     }
 
+    .starboy-logo:focus {
+        filter: drop-shadow(0 0 1em gray);
+    }
+
 }
