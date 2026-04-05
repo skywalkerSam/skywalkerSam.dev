@@ -14,7 +14,7 @@ export default function Page() {
           <StarboyLogo></StarboyLogo>
         </div>
       </div>
-      <Footer></Footer>
+      {/* <Footer></Footer> */}
     </div>
   );
 }
