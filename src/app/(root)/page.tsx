@@ -1,6 +1,6 @@
 import Stars from "~/components/Stars";
 import StarboyLogo from "~/components/StarboyLogo";
-import Footer from "~/components/Footer";
+// import Footer from "~/components/Footer";
 
 // ISR
 export const revalidate = 3600;
@@ -14,7 +14,7 @@ export default function Page() {
           <StarboyLogo></StarboyLogo>
         </div>
       </div>
-      <Footer></Footer>
+      {/* <Footer></Footer> */}
     </div>
   );
 }
