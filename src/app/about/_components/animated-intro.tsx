@@ -25,7 +25,7 @@ export default function AnimatedIntro() {
   return (
     <div className="flex min-h-screen items-center justify-center px-3">
       <div className="hero-text">
-        <h1>
+        <h2>
           <span className="slide">
             <span className="wrapper">
               {emojiList.map((word, i) => (
@@ -35,8 +35,8 @@ export default function AnimatedIntro() {
               ))}
             </span>
           </span>
-        </h1>
-        <h1>
+        </h2>
+        <h2>
           i<span className="text-sky-500">&apos;</span>m
           <span className="slide">
             <span className="wrapper">
@@ -47,8 +47,8 @@ export default function AnimatedIntro() {
               ))}
             </span>
           </span>
-        </h1>
-        <h1>
+        </h2>
+        <h2>
           i
           <span className="slide">
             <span className="wrapper">
@@ -59,10 +59,10 @@ export default function AnimatedIntro() {
               ))}
             </span>
           </span>
-        </h1>
-        <h1>
-          Stuff<span className="text-sky-500">.</span>
-        </h1>
+        </h2>
+        <h2>
+          Things<span className="text-sky-500">.</span>
+        </h2>
       </div>
     </div>
   );
