@@ -22,6 +22,20 @@ export default function AnimatedIntro() {
     );
   }, []);
 
+  useGSAP(() => {
+    gsap.to(".things-bubbles", {
+      repeat: -1,
+      duration: 1.9,
+      autoAlpha: 0,
+      stagger: 0.7,
+      repeatDelay: 0.3,
+      // ease: "power4.out",
+      // ease: "back.out(1)",
+      ease: "slow(0.7,0.7,true)",
+      // yoyo: true
+    });
+  });
+
   return (
     <div className="flex min-h-screen items-center justify-center px-3">
       <div className="hero-text">
@@ -61,7 +75,10 @@ export default function AnimatedIntro() {
           </span>
         </h2>
         <h2>
-          Things<span className="text-sky-500">.</span>
+          Things
+          <div className="things-bubbles ml-1.5 inline-block h-4 w-4 rounded-sm bg-sky-500"></div>
+          <div className="things-bubbles ml-1.5 inline-block h-4 w-4 rounded-sm bg-sky-500"></div>
+          <div className="things-bubbles ml-1.5 inline-block h-4 w-4 rounded-sm bg-sky-500"></div>
         </h2>
       </div>
     </div>
